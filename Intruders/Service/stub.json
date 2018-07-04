@@ -1,0 +1,24 @@
+{
+    "Users" : [  
+        {
+          "userName": "Natarajan",
+          "password": "Nat",
+          "isAdmin": true
+        },
+        {
+          "userName": "Arun",
+          "password": "Arun",
+          "isAdmin": false
+        },
+        {
+          "userName": "Vinoth",
+          "password": "Vinoth",
+          "isAdmin": true
+        },
+        {
+          "userName": "Arthick",
+          "password": "Arthick",
+          "isAdmin": false
+        }
+    ]
+}
