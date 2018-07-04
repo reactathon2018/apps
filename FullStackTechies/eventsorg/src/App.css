@@ -1,5 +1,6 @@
 body{
   background: #f6f6f6;
+  font-size:14px;
 }
 
 .App {
@@ -31,6 +32,9 @@ body{
   to { transform: rotate(360deg); }
 }
 
+.main-content-wraper{
+  font-size: 14px;
+}
 .eventsblog{
     background: #f3f3f3;
     font-family: monospace;
@@ -48,3 +52,12 @@ body{
 .eventsblog ul{
    margin:0;
 }
+
+body button, body p, body label {
+  font-size: 14px !important; 
+}
+
+ body h2{
+  font-size:24px;
+  font-weight: bold;
+ }
