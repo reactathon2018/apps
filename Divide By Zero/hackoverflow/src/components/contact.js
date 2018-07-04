@@ -1,5 +1,4 @@
 import React from "react";
-import FontAwesome from "react-fontawesome";
 const Contact = props => {
   const { name, email, phno } = props.data;
   return (
