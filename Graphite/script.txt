@@ -1,0 +1,125 @@
+drop table if exists "job"."tbldocument";
+drop table if exists "job"."tblprocessimprovementfeedback";
+drop table if exists "job"."tblinterviewschedule";
+drop table if exists "job"."tblapplications";
+drop table if exists "job"."tbljobprofile";
+drop table if exists "job"."tblcandidate";
+drop table if exists "job"."tblemployee";
+
+
+create table "job"."tblemployee" (
+  employeeid varchar(10) primary key,
+  first_name varchar(128),
+  last_name varchar(128),
+  levelid varchar(10) default 0,
+  levelname varchar(128),
+  email varchar(128) not null,
+  doj timestamp not null,
+  isActive bit DEFAULT 1::bit NOT NULL
+);
+
+create table "job"."tbljobprofile" (
+ jobid varchar(10) primary key,
+ jobname varchar(128),
+ jobposition varchar(128),
+ openpositions integer default 1,
+ jobdescription varchar(3000),
+ jobfunctionalarea varchar(200),
+ employeeType varchar(10),
+ minexperience integer,
+ maxexperience integer,
+ joblocation varchar(128),
+ portfolio varchar(128),
+ hiringmanagerid varchar(128) references "job"."tblemployee"(employeeid),
+ hiringteam varchar(128),
+ jobprimaryskills varchar(128),
+ jobsecondaryskills varchar(128),
+ jobcreationdate timestamp not null default current_timestamp,
+ jobclosedate timestamp,
+ jobstatus varchar(20),
+ isActive bit DEFAULT 1::bit NOT NULL
+);
+
+create table "job"."tblcandidate" (
+ candidateid varchar(10) primary key,
+ candidate varchar(128),  
+ experience decimal not null,
+ qualification varchar(128),
+ skillset varchar(128),
+ dob timestamp,
+ contact varchar(100),
+ email varchar(100) 
+);
+
+create table "job"."tblapplications" (
+ applicationid varchar(10) primary key,
+ candidateid varchar(10) references "job"."tblcandidate"(candidateid),
+ jobid varchar(10) references "job"."tbljobprofile"(jobid), 
+ applicationdate timestamp not null default current_timestamp,
+ candidatestatus varchar(200) not null,
+ isApplicationShortlisted bit DEFAULT 0::bit NOT NULL, 
+ isFinalized bit DEFAULT 0::bit NOT NULL,
+ comments varchar(300)
+); 
+
+create table "job"."tblinterviewschedule" (
+ applicationid varchar(10) references "job"."tblapplications"(applicationid),
+ candidateid varchar(10) references "job"."tblcandidate"(candidateid),
+ interviewdate timestamp not null,
+ roundnumber integer not null,
+ interviewerid varchar(10) references "job"."tblemployee"(employeeid),
+ feedback varchar(300),
+ isshortlisted bit DEFAULT 0::bit NOT NULL
+);
+
+create table "job"."tbldocument" (
+ documentid varchar(10) primary key,
+ applicationid varchar(10) references "job"."tblapplications"(applicationid),
+ candidateid varchar(10) references "job"."tblcandidate"(candidateid),
+ jobid varchar(10) references "job"."tbljobprofile"(jobid), 
+ documentname varchar(50) not null,
+ document bytea
+);
+
+create table "job"."tblprocessimprovementfeedback" (
+ candidateid varchar(10) references "job"."tblcandidate"(candidateid),
+ feedbackdate timestamp not null default current_timestamp,
+ comments varchar(300),
+ rating integer
+);
+
+INSERT INTO job.tblemployee(employeeid, first_name, last_name, levelid, levelname, email, doj)
+	VALUES ('E0001', 'Ajay','Kumar', '4', 'Manager', 'test@verizon.com', '1/1/2015'); 
+INSERT INTO job.tblemployee(employeeid, first_name, last_name, levelid, levelname, email, doj)
+	VALUES ('E0002', 'Balu','Kumar', '2', 'Consultant', 'test@verizon.com', '1/1/2012'); 	
+INSERT INTO job.tblemployee(employeeid, first_name, last_name, levelid, levelname, email, doj)
+	VALUES ('E0003', 'Ryan','Kumar', '4', 'Manager', 'test@verizon.com', '1/1/2011'); 	
+INSERT INTO job.tblemployee(employeeid, first_name, last_name, levelid, levelname, email, doj)
+	VALUES ('E0004', 'Raj','Kumar', '2', 'Consultant', 'test@verizon.com', '1/1/2013'); 	
+
+INSERT INTO job.tbljobprofile(jobid, jobname, jobposition, openpositions, jobdescription, jobfunctionalarea, employeeType, minexperience, 
+	maxexperience, joblocation,  portfolio,  hiringmanagerid, hiringteam, jobprimaryskills,jobsecondaryskills,jobclosedate, jobstatus)
+	VALUES ('J0001', 'Dotnet developer','Analyst', 5, 'Should have strong working knowledge in dotnet and related technologies.','Dev', 'FullTime', 3, 
+	6, 'Chennai', 'VZW','E0001', 'myInfo', 'Dot net, MVC 6, React',	'Postgres, Angular, Jquery','7/31/2018', 'Approved');
+	
+INSERT INTO job.tbljobprofile(jobid, jobname, jobposition, openpositions, jobdescription, jobfunctionalarea, employeeType, minexperience, 
+	maxexperience, joblocation,  portfolio,  hiringmanagerid, hiringteam, jobprimaryskills,jobsecondaryskills,jobclosedate, jobstatus)
+	VALUES ('J0002', 'Java developer','Specialist', 2, 'Should have strong working knowledge in java and related technologies.','Dev', 'FullTime', 4, 
+	8, 'Chennai', 'VZW','E0001', 'myInfo', 'Java',	'Postgres, Angular, Jquery','7/31/2018', 'Approved');
+	
+INSERT INTO job.tbljobprofile(jobid, jobname, jobposition, openpositions, jobdescription, jobfunctionalarea, employeeType, minexperience, 
+	maxexperience, joblocation,  portfolio,  hiringmanagerid, hiringteam, jobprimaryskills,jobsecondaryskills,jobclosedate, jobstatus)
+	VALUES ('J0003', 'React developer','Specialist', 3, 'Should have strong working knowledge in react and related technologies.','Dev', 'FullTime', 4, 
+	6, 'Chennai', 'VZW','E0001', 'myInfo', 'React, Redux',	'Postgres','8/31/2018', 'Approved');
+ 
+	
+INSERT INTO job.tblcandidate(candidateid, candidate, experience, qualification, skillset, dob, contact, email)
+	VALUES ('C0001', 'Amar', 6, 'BE','Asp.net, MVC, Jquery', '7/2/2006', '91-888888881', 'amar@verizon.com');  
+INSERT INTO job.tblcandidate(candidateid, candidate, experience, qualification, skillset, dob, contact, email)
+	VALUES ('C0002', 'Akbar', 5, 'MCA','Asp.net, MVC', '5/2/2004', '91-888888881', 'akbar@verizon.com'); 
+INSERT INTO job.tblcandidate(candidateid, candidate, experience, qualification, skillset, dob, contact, email)
+	VALUES ('C0003', 'Antony', 7, 'BE','Asp.net, Jquery', '1/1/2003', '91-888888881', 'antony@verizon.com'); 
+INSERT INTO job.tblcandidate(candidateid, candidate, experience, qualification, skillset, dob, contact, email)
+	VALUES ('C0004', 'Anie', 7, 'BE','Asp.net, Jquery', '1/1/2002', '91-888888881', 'antony@verizon.com'); 		
+  
+ 
