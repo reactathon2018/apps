@@ -7,19 +7,19 @@ export default () => (
   <Navbar inverse collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
-          <Link to="/" > Enrolled Events </Link>
+          <Link to="/" > Events Org </Link>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
-        <Nav pullRight>
-          <NavItem eventKey={1} href="#">
+         <ul className="nav navbar-nav navbar-right">
+          <li role="presentation" className="">
             <Link to="/enrolledEvents" > Enrolled Events </Link>
-          </NavItem>
-          <NavItem eventKey={2} href="#">
+          </li>
+          <li role="presentation" className="">
             <Link to="/myEvents" > My Events </Link>
-          </NavItem>
-        </Nav>
+          </li>
+        </ul>
       </Navbar.Collapse>
     </Navbar>
 

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 
 import TextField from '@material-ui/core/TextField';
@@ -32,6 +33,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 
+
 function rand() {
   return Math.round(Math.random() * 20) - 10;
 }
@@ -51,7 +53,8 @@ function getModalStyle() {
 const styles = theme => ({
   root: {
     width: '100%',
-    marginTop:'52px'
+    marginTop: '52px',
+    fontSize:'14px'
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -89,7 +92,9 @@ class EnrolledEvents extends React.Component {
   state = {
     expanded: null,
     solutionType: '',
-    showPopup: false
+    showPopup: false,
+    uploadingFile: [],
+    uploadingLink: ''
   };
 
   handleChange = panel => {
@@ -98,79 +103,117 @@ class EnrolledEvents extends React.Component {
     });
   };
 
- 
+  uploadFile = (event) => {
+     this.setState({ uploadingFile: event.target.files[0], uploadingLink: '' });
+  }
+
+   uploadLink = (event) => {
+       this.setState({ uploadingLink: event.target.value, uploadingFile: [] });
+   }
+
+ submitFile = event => { 
+  const submitDta = new FormData();
+  console.log(this.state.uploadingLink);
+  console.log(this.state.uploadingFile);
+  submitDta.append("solutionType", this.state.solutionType);
+  if(this.state.solutionType == 'link') submitDta.append('link', this.state.uploadingLink);
+  if(this.state.solutionType == 'file'){
+    const config = {     
+            headers: { 'content-type': 'multipart/form-data' }
+        }
+        submitDta.append('file', this.state.uploadingFile);
+  }
+  console.log(submitDta);
+  console.log(submitDta.keys());
+ }
 
   handleRadioChange = event => {
     this.setState({ solutionType: event.target.value });
-	// let getState = 
+  // let getState = 
 
   };
 
   handlePopupClose = () => {
-  	this.setState({showPopup: false})
+    this.setState({showPopup: false})
   }
+
+  
 
   render() {
     const { classes } = this.props;
     const { expanded, solutionType, showPopup } = this.state;
 
-   	const solutionTypeConent = (solutionType) => {
-   		if(solutionType == 'file'){
-   			return <div>File</div>
-   		}else if(solutionType == 'link'){
-   			return (
-			<form className={classes.container} noValidate autoComplete="off">
-   			<TextField
+    const solutionTypeConent = (solutionType) => {
+      if(solutionType == 'file'){
+        return (
+
+        <div className="file-upload-area">
+                  <input type="file" onChange={ this.uploadFile } />
+              </div> 
+
+          )
+
+      }else if(solutionType == 'link'){
+        return (
+      <form className={classes.container} noValidate autoComplete="off">
+        <TextField
           id="with-placeholder"
-          label="With placeholder"
+          label="solution link"
           placeholder="Placeholder"
           className={classes.textField}
-          margin="normal"/>
+          margin="normal"
+          onChange={ this.uploadLink }
+          />
           </form>
 )
-   		}
+      }
 
-   		return null;
-   	}
+      return null;
+    }
 
     return (
    
       <div className={classes.root}>
+
         <ExpansionPanel expanded={expanded === 'panel1'}>
           <ExpansionPanelSummary>
             <Typography className={classes.heading } onClick={ () => this.setState({showPopup: true}) }>Enrolled Events Name - Hackathon</Typography>
             <Typography className={classes.heading} onClick={ () => this.setState({showPopup: true}) }>22-06-2018</Typography>
             <Typography className={classes.heading} onClick={ () => this.setState({showPopup: true}) }>Completed</Typography>
             <Button  onClick={ (e) =>  {
-            	this.handleChange((expanded === 'panel1' ? false : 'panel1'))
+              this.handleChange((expanded === 'panel1' ? false : 'panel1'))
             }}  className={classes.heading} variant="contained" color="primary" size="small">Add Solution</Button>
         </ExpansionPanelSummary>
-          	
+            
           <ExpansionPanelDetails>
 
-			<FormControl component="fieldset" required className={classes.formControl}>
-	          <RadioGroup
-	            aria-label="resource"
-	            name="resourceUpload"
-	            className={classes.group}
-	            value={this.state.solutionType}
-	            onChange={this.handleRadioChange}>
-	            <FormControlLabel value="file" control={<Radio />} label="File Upload" />
-	            <FormControlLabel value="link" control={<Radio />} label="Link Upload" />
-	          </RadioGroup>
+      <FormControl component="fieldset" required className={classes.formControl}>
+            <RadioGroup
+              aria-label="resource"
+              name="resourceUpload"
+              className={classes.group}
+              value={this.state.solutionType}
+              onChange={this.handleRadioChange}>
+              <FormControlLabel value="file" control={<Radio />} label="File Upload" />
+              <FormControlLabel value="link" control={<Radio />} label="Link Upload" />
+            </RadioGroup>
 
 
-      		{ solutionTypeConent(solutionType) }
+          { solutionTypeConent(solutionType) }
 
 
-	        </FormControl>
+          </FormControl>
 
           </ExpansionPanelDetails>
 
         <Divider />
         <ExpansionPanelActions>
-          <Button size="small">Cancel</Button>
-          <Button size="small" color="primary">
+          <Button onClick={ (e) =>  {
+              this.handleChange((expanded === 'panel1' ? false : 'panel1'))
+            }} size="small">Cancel</Button>
+          <Button onClick={ (e) =>  {
+              this.handleChange((expanded === 'panel1' ? false : 'panel1'))
+            }} size="small" color="primary"  onClick={ this.submitFile }>
             Save
           </Button>
         </ExpansionPanelActions>
