@@ -1,0 +1,139 @@
+body{
+    background: #e8e8e861;
+}
+.floatLeft{
+    float: left;
+    text-align: right;
+}
+#mainWrapper{
+    background: white;
+}
+#sideList, #sideList ul{
+    padding:0;
+}
+#sideList{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.heading4{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+li.sideMenu{
+    border-left: 4px solid white;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+li.sideMenu:hover, li.sideMenu.active{
+    border-left: 4px solid red;
+}
+#sideBody{
+    height: 815px;
+    border-left: .5px dotted grey;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#topView{
+    height:370px;
+    background-image: url("../img/hackathon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    padding: 0;
+    /* background-color: black; */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#topView .row{
+    position: absolute;
+    color: white;
+    background-color: #000000ad;
+    width: inherit;
+    height: inherit;
+}
+.SubTilesWrapper{
+    width: 100%;
+    height: 440px;
+    overflow-y: scroll;
+    padding-right: 44px;
+    box-sizing: content-box; 
+}
+.sliderWrapper{
+    height: 150px;
+    margin-bottom: 20px;
+}
+.leftArrow, .rightArrow{
+    height: inherit;
+    width: 30px;
+    position:absolute;
+    color: black;
+    cursor: pointer;
+}
+.leftArrow:hover, .rightArrow:hover{
+    background: #0000005e;
+    color: white;
+}
+.leftArrow i, .rightArrow i{
+    position: absolute;
+    top: 67px;
+    left: 8px;
+}
+.leftArrow{
+    float: left;
+    text-align: right;
+}
+.rightArrow{
+    right:15px;
+    float: right;
+    text-align: left;
+}
+.sliderList{
+    width: inherit;
+    height: inherit;
+    background: #eee;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.LeaderSection{
+    height : 300px;
+}
+.firstSection {
+    /*background-color: #ff6b6b;*/
+    border-radius: 5px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2), 2px 2px 17px -2px rgba(0, 0, 0, 0.19);
+    margin-top: 25px;
+    height: 250px;
+    background-image: url('../img/Medals.jpg');
+}
+.secondSection {
+    border-radius: 5px;
+    /*border : .5px solid #ff6b6b;*/
+    border : .5px solid #cecece;
+}
+#eventListWrapper{
+    padding-top: 15px;
+    height: 770px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+#eventListWrapper .panel-body{
+    position: relative;
+}
+#eventListWrapper .panel-body .eventStatus{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#eventListWrapper .panel-body .eventDates{
+    position: absolute;
+    top: 2px;
+    right: 75px;
+    font-size: 10px;
+}
