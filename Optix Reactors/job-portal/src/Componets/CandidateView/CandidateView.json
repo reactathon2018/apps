@@ -1,0 +1,7 @@
+[{"jobid": 1,"jobtitle": "SoftWare Engineer"}, 
+    {"jobid": 2, "jobtitle": "Analyst", "skillset": "ReactJS, AngularJS,NodeJS ","interviewdate":"15/07/2018", "interviewtime":"11:00 AM", "status":"Not Yet","feedback":"" }, 
+    {"jobid": 3, "jobtitle": "Analyst", "skillset": "ReactJS, AngularJS,NodeJS ","interviewdate":"15/07/2018", "interviewtime":"11:00 AM", "status":"Not Yet","feedback":"" }, 
+    {"jobid": 4, "jobtitle": "Analyst","skillset": "ReactJS, AngularJS,NodeJS ","interviewdate":"15/07/2018", "interviewtime":"11:00 AM", "status":"Not Yet","feedback":"" }, 
+    {"jobid": 5, "jobtitle": "Architect","skillset": "MicroService, ReactJS, AngularJS,NodeJS ","interviewdate":"15/07/2018", "interviewtime":"11:00 AM", "status":"Not Yet","feedback":"" }, 
+    {"jobid": 6, "jobtitle": "Senior Architect","skillset": "MicroService, ReactJS, AngularJS,NodeJS ","interviewdate":"15/07/2018", "interviewtime":"11:00 AM", "status":"Not Yet","feedback":"" }, 
+    {"jobid": 10, "jobtitle": "Analyst","skillset": "ReactJS, AngularJS,NodeJS","interviewdate":"15/07/2018", "interviewtime":"11:00 AM", "status":"Not Yet","feedback":"" }]
