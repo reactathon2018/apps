@@ -12,3 +12,9 @@
 1. Node 
 2. GraphQL
 3. MongoDB with Mongoose
+
+### Demo
+A live demo of the app can be seen [here](https://pages.github.com/).
+
+### Backend URL 
+[Backend GraphQL](https://vzhackathon-backend.herokuapp.com/graphql)
