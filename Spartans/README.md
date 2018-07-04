@@ -1,8 +1,8 @@
 # Spartans
 
 # Contributors
-  Dyana Jesurathi 
-  Anup Raj
+  1. Dyana Jesurathi 
+  2. Anup Raj
 
 # Topic 
   Gamification Portal
