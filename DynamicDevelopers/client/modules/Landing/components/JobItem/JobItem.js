@@ -20,7 +20,7 @@ function JobItem(props) {
       <ul>
         <li title="" className={styles.title}>{props.job.title}</li>
       </ul> 
-      <span className={styles.org}>Verizon Wireless</span> <br />
+      <span className={styles.org}>Dynamic Wireless</span> <br />
       <span className={styles.exp}><em></em>6-8 yrs</span> <br />
       <span className={styles.loc}><em></em><span>Chennai </span></span>  
       <div className={styles.more}> <span className={styles.label}>Keyskills:</span>
