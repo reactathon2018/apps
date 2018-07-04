@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial;
+    padding: 10px;
+    /* background-color: rgb(226, 211, 73); */
+    background-image: url("./576720086.jpg"); 
+}
+
+.fakeimg {
+    /* background-color: white; */
+    
+    width: 100%;
+    padding: 20px;
+    height:100%;
+    
+    background-image: url("./576720086.jpg"); 
+    /* background-color: rgb(226, 211, 73); */
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
