@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; 
+  font-size: 13px !important;
+  color: #56595d !important;
+  
+}
+.navHeader {
+  height: 8em;
+  margin: auto;
+    width: 90%;
+}
+.no-padding {
+  padding: 0px !important;
+}
+
+.no-margin{
+  margin: 0px !important;
+}
+.pageContainer {
+  margin-left: 15em !important;
+  margin-right: 15em !important;
+  border: 2px solid #d4d4d4;
+  padding: 1em;
+  background: #ececec !important;
+  height:1000px;
+}
+
+:root {
+  --bright-grey: #56595d;
+  --san-marino: #576a9f;
+  --light-grey: #d4d4d4;
+  --snow: #fafafa;
+  --hawkes-blue: #d3def6;
+}
+.navbar-shadow {
+  box-shadow: 0px 1px 10px 1px #d4d4d4;
+}
+
+.row-content {
+  margin-top: 1em;
+}
+
+.carousel {
+  height: 23em;
+}
+
+.allHackbar {
+  margin-bottom: 1em;
+  background: #fafafa;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.allHackContainer {
+  padding: 1em;
+  line-height: 1.5em;
+  padding-left: 2em !important;
+  background: snow;
+    margin-top: 1em;
+}
+
+.widget {
+  margin-bottom: 1em;
+  margin-right: 0.5em;
+  background: #fafafa !important;
+  padding: 0.8em;
+  box-shadow: 0px 1px 10px 1px #d4d4d4;
+  min-height: 7em;
+}
+.iconstyle {
+  padding-top: 1em;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #dee2e6;
+}
+.nav-link {
+  color: #495057;
+  background-color: transparent !important;
+  border: 0px!important;
+}
+
+.nav-link.active {
+  color: #495057;
+  background-color: transparent !important;
+  border: 0px!important;
+  border-bottom: 4px solid #007bff!important;
+}
+
+.header{
+  font-size: 28px;
+  padding-left: .5em;
+  font-weight: 600;
+}
+.carouselSize{
+  width: 100%;
+}
+
+.blogImage{
+margin-top: 1em!important;;
+padding-left: 0em!important;
+}
+
+.headerStyle{
+font-size: 29px;
+font-family: 'Exo 2', sans-serif;
+font-weight: 500;
+margin-left: -.5em;
+}
