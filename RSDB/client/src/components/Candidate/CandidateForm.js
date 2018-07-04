@@ -69,11 +69,13 @@ class CandidateForm extends React.Component {
   
   handleRowSelect=(indx)=>
   {
+   if(indx!=-1)
+   {
     var selectedRow=this.rowGetter(indx);
     
     window.sessionStorage.setItem("selectedJob",JSON.stringify(selectedRow));
 reactDom.render(<JobApplyPage/>,document.getElementById("root"));
-    
+   } 
   }
 
   getRandomDate = (start, end) => {
