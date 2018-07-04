@@ -28,15 +28,15 @@ console.log("constructor"+JSON.stringify(this.props.userDetails))
       <div>
 
 {this.props.userDetails.map(c=><UserDetail 
-      jobCode={123456}
-      title={c.jobDetails.title}
-      description={c.jobDetails.description}
-      primarySkills={c.jobDetails.primarySkills}
-      secondarySkills={c.jobDetails.secondarySkills}
-      venue={c.jobDetails.scheduling.venue}
-      date={c.jobDetails.scheduling.date}
-      status={c.jobDetails.status}
-      noOfPosting={c.jobDetails.noOfPosting}
+      jobCode={c.jobCode}
+      title={c.title}
+      description={c.description}
+      primarySkills={c.primarySkills}
+      secondarySkills={c.secondarySkills}
+      venue={c.venue}
+      date={c.date}
+      status={c.status}
+      noOfPosting={c.noOfPosting}
   />)}
 
       </div>

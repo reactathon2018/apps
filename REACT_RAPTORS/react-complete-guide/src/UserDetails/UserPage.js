@@ -12,17 +12,30 @@ class UserPage extends Component{
   }
 
   componentDidMount(){
-    axios
-      .get("http://localhost:8086/reactathon/getJobDetailsForUser?emailId=amsa.singaravelu@verizon.com&uniqueId=123")
+   fetch("http://localhost:8086/reactathon/getJobDetailsForUser?emailId=ams.singaravelu@verizon.com&uniqueId=123",{
+      crossDomain : true,
+      contentType: 'application/json'
+    })
+    .then((data) => {
+      console.log("inside data>> ", data);
+      return data.json();
+    //this.setState({ userDetails: data })
+
+  })
       .then(response => {
-
+console.log(response);
         // create an array of contacts only with relevant data
-        const newUserDetails = response.data.map(c => {
+        const newUserDetails = response.jobDetails.map((c) => {
           return {
-            id: c.id,
-            name:c.name
-
-
+            jobCode:c.jobCode,
+            title: c.Title,
+            description:c.description,
+            primarySkills:c.primarySkills,
+            secondarySkills:c.secondarySkills,
+            venue:"Chennai",//c.scheduling.Venue,
+            date:"10 Jul 2018",//c.scheduling.date,
+            status:c.status,
+            noOfPosting:c.noOfPosting
           };
         });
         const newState = Object.assign({}, this.state, {
