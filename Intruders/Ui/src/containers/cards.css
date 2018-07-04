@@ -1,0 +1,17 @@
+.card-align{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.fa-icon-inprogress{
+    color: blue;
+}
+.fa-icon-completed{
+    color: red;    
+}
+
+.fa-icon-position{
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+    margin-left: 75%;
+}

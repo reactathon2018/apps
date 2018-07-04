@@ -1,0 +1,37 @@
+DAL API Server listening at http://127.0.0.1:\\.\pipe\c17cf0dc-f04d-4825-bee6-49e1981f7a3a
+DAL DB Server listening at 127.0.0.1:27017
+
+Teams Service Contacted...
+Service Request Teams Id : 1 Record Limit : 2
+Teams Over and out..
+[]
+Status: Success | Status Code: 200 | 
+
+Teams Service Contacted...
+Service Request Teams Id : 1
+Teams Over and out..
+{ _id: 5b3ba010fc7024943725ee2b,
+  teamId: 1,
+  teamName: 'Team 1',
+  teamDescription: 'Team 1 Description',
+  teamParticipants: [ 1, 2 ],
+  teamEventId: 1,
+  isTeamActive: true,
+  teamScore: 
+   [ { Architecture: 80,
+       Design: 75,
+       Build: 75,
+       Dev: 90,
+       'Unit Testing': 30,
+       'System Testing': 50,
+       'Integration Testing': 80,
+       Deployment: 90 } ],
+  teamScoreMaxTotal: 570,
+  teamRecognition: 'Event 1 Runner Up' }
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 1 Record Limit : 2
+Teams Over and out..
+[]
+Status: Success | Status Code: 200 | 

@@ -1,0 +1,65 @@
+<!-- views/profile.ejs -->
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+         body        {  word-wrap:break-word; }
+		.email{float: right;
+margin-left: 1090px;
+color: #fff;}
+.logout{color:#fff !important}
+    </style>
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/profile">ProJob Portal</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="/jobs">Jobs</a></li>
+      <li><a href="/schedule">Schedule</a></li>
+      <li><a href="/feedback">Feedback</a></li>
+	  <li><a href="/contact">Contact</a></li>
+	  <li><a href="/aboutus">About Us</a></li>
+	  <li class="dropdown email">
+        <a class="dropdown-toggle logout" data-toggle="dropdown" href="#"><%= user.local.email %>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/logout">Logout</a></li>
+         
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+    
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6">
+            <div class="well">
+                upload documents<input type="file" class=""/>
+					
+            </div>
+        </div>
+					
+					
+
+    </div>
+
+</div>
+</body>
+</html>
+
