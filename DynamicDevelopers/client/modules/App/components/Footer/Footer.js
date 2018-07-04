@@ -11,7 +11,7 @@ export function Footer() {
   return (
     <div style={{ background: `#FFF url(${bg}) center` }} className={styles.footer}>
       <p>&copy; 2018 &middot; Varizon &middot; Career Portal Inc.</p>
-      <p><FormattedMessage id="twitterMessage" /> : <a href="https://twitter.com/@verizon" target="_Blank">@Verizon</a></p>
+      <p><FormattedMessage id="twitterMessage" /> : <a href="https://twitter.com/@Dynamic" target="_Blank">@Dynamic</a></p>
     </div>
   );
 }
