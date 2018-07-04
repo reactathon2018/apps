@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+            <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- Latest compiled and minified CSS -->
+
+<!-- Bootstrap core CSS-->
+<link href="https://blackrockdigital.github.io/startbootstrap-sb-admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom fonts for this template-->
+<link href="https://blackrockdigital.github.io/startbootstrap-sb-admin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- Page level plugin CSS-->
+<link href="https://blackrockdigital.github.io/startbootstrap-sb-admin/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+<!-- Custom styles for this template-->
+<link href="https://blackrockdigital.github.io/startbootstrap-sb-admin/css/sb-admin.css" rel="stylesheet">
+<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+
+    <title>Hackathon Challenge</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+          <a class="navbar-brand" href="index.html">Hackathon Challenge</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+              <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Dashboard">
+                <a class="nav-link" href="/indexhack">
+                  <i class="fa fa-fw fa-dashboard"></i>
+                  <span class="nav-link-text">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Charts">
+                <a class="nav-link" href="/RegisterHackathonTable">
+                  <i class="fa fa-fw fa-area-chart"></i>
+                  <span class="nav-link-text">Participants</span>
+                </a>
+              </li>
+              <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Tables">
+                <a class="nav-link" href="/addhack">
+                  <i class="fa fa-fw fa-table"></i>
+                  <span class="nav-link-text">Add Hackathon Event</span>
+                </a>
+              </li>
+              <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Components">
+                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+                  <i class="fa fa-fw fa-wrench"></i>
+                  <span class="nav-link-text">Components</span>
+                </a>
+                <ul class="sidenav-second-level collapse" id="collapseComponents">
+                  <li>
+                    <a href="navbar.html">Navbar</a>
+                  </li>
+                  <li>
+                    <a href="cards.html">Cards</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Example Pages">
+                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
+                  <i class="fa fa-fw fa-file"></i>
+                  <span class="nav-link-text">Example Pages</span>
+                </a>
+                <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+                  <li>
+                    <a href="login.html">Login Page</a>
+                  </li>
+                  <li>
+                    <a href="register.html">Registration Page</a>
+                  </li>
+                  <li>
+                    <a href="forgot-password.html">Forgot Password Page</a>
+                  </li>
+                  <li>
+                    <a href="blank.html">Blank Page</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Menu Levels">
+                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
+                  <i class="fa fa-fw fa-sitemap"></i>
+                  <span class="nav-link-text">Menu Levels</span>
+                </a>
+                <ul class="sidenav-second-level collapse" id="collapseMulti">
+                  <li>
+                    <a href="#">Second Level Item</a>
+                  </li>
+                  <li>
+                    <a href="#">Second Level Item</a>
+                  </li>
+                  <li>
+                    <a href="#">Second Level Item</a>
+                  </li>
+                  <li>
+                    <a class="nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti2">Third Level</a>
+                    <ul class="sidenav-third-level collapse" id="collapseMulti2">
+                      <li>
+                        <a href="#">Third Level Item</a>
+                      </li>
+                      <li>
+                        <a href="#">Third Level Item</a>
+                      </li>
+                      <li>
+                        <a href="#">Third Level Item</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-fw fa-link"></i>
+                  <span class="nav-link-text">Link</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav sidenav-toggler">
+              <li class="nav-item">
+                <a class="nav-link text-center" id="sidenavToggler">
+                  <i class="fa fa-fw fa-angle-left"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-fw fa-envelope"></i>
+                  <span class="d-lg-none">Messages
+                    <span class="badge badge-pill badge-primary">12 New</span>
+                  </span>
+                  <span class="indicator text-primary d-none d-lg-block">
+                    <i class="fa fa-fw fa-circle"></i>
+                  </span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+                  <h6 class="dropdown-header">New Messages:</h6>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                    <strong>David Miller</strong>
+                    <span class="small float-right text-muted">11:21 AM</span>
+                    <div class="dropdown-message small">Hey there! This new version of SB Admin is pretty awesome! These messages clip off when they reach the end of the box so they don't overflow over to the sides!</div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                    <strong>Jane Smith</strong>
+                    <span class="small float-right text-muted">11:21 AM</span>
+                    <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                    <strong>John Doe</strong>
+                    <span class="small float-right text-muted">11:21 AM</span>
+                    <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item small" href="#">View all messages</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mr-lg-2" id="alertsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-fw fa-bell"></i>
+                  <span class="d-lg-none">Alerts
+                    <span class="badge badge-pill badge-warning">6 New</span>
+                  </span>
+                  <span class="indicator text-warning d-none d-lg-block">
+                    <i class="fa fa-fw fa-circle"></i>
+                  </span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="alertsDropdown">
+                  <h6 class="dropdown-header">New Alerts:</h6>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                    <span class="text-success">
+                      <strong>
+                        <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+                    </span>
+                    <span class="small float-right text-muted">11:21 AM</span>
+                    <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                    <span class="text-danger">
+                      <strong>
+                        <i class="fa fa-long-arrow-down fa-fw"></i>Status Update</strong>
+                    </span>
+                    <span class="small float-right text-muted">11:21 AM</span>
+                    <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                    <span class="text-success">
+                      <strong>
+                        <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+                    </span>
+                    <span class="small float-right text-muted">11:21 AM</span>
+                    <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item small" href="#">View all alerts</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                  <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Search for...">
+                    <span class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                  <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="col-md-2"></div>
+
+    <header class="content-wrapper" style="height: 131px;padding-top: 15px;">
+    <div class="header clearfix">
+      <!-- <nav>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation" class="active"><a href="#">List</a></li>
+          <li role="presentation"><a href="#">Register</a></li>
+          <li role="presentation"><a href="#">Contact US</a></li>
+        </ul>
+      </nav> -->      
+    </div>
+    <div style="margin-top: 100px" id="root"></div>
+  </header>    
+    <footer class="container-fluid"></footer>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Team Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Team Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">No of Participants</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" placeholder="NO#">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Participants Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Participants Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Portfolio</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Portfolio Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Contact Number</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Contact Number">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit Reactathon</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
