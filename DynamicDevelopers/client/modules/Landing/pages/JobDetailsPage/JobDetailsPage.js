@@ -28,7 +28,7 @@ class JobDetailsPage extends Component {
           <h3> FeedBack</h3>
           <hr />
           <ManagerFdb title="Manager Feedback" jobDetails={this.props.jobDetails} />
-          <h r/>
+          <hr />
           <ManagerFdb title="Technical Manager Feedback" jobDetails={this.props.jobDetails} />
         </div>
         <div className={styles.sectionSeparation}></div>

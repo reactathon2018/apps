@@ -18,7 +18,7 @@ class LandingPage extends Component {
   render() {
     return (
       <div>
-        <h6>Home</h6>
+        <h3>Applied Jobs </h3>
         <LandingPageJobs jobs={this.props.jobs} handleClickJob={this.handleClickJob} />
       </div>
     );

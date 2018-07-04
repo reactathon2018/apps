@@ -13,9 +13,7 @@ function ManagerFdb(props) {
                 <h3>{props.title}</h3>
             </div>
             <div className={styles.managerfdbCmt}>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                <p>{props.jobDetails.managerfeedback}
                 </p>
             </div>
         </div>
@@ -33,6 +31,8 @@ ManagerFdb.propTypes = {
     description: PropTypes.string.isRequired,
     interviewDate: PropTypes.string.isRequired,
     appliedDate: PropTypes.string.isRequired,
+    managerfeedback: PropTypes.string.isRequired,
+    HrMessage: PropTypes.string.isRequired,
   }).isRequired,
   title: PropTypes.string.isRequired,
 };
