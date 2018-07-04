@@ -1,0 +1,16 @@
+.borderContainer {
+    border:1px solid #333;
+    padding: 15px;
+}
+.jobDesc {
+    margin-bottom:15px;
+}
+
+.managerfdb {
+    width:25%;
+    display: inline-flex;
+}
+.managerfdbCmt {
+    width:70%;
+    display:inline-flex;
+}

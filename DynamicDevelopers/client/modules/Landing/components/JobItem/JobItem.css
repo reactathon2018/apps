@@ -1,0 +1,23 @@
+.row .loc,.row .org{
+	font-size:12px;
+	color:#666;
+}
+.row{	
+	background-color: #FFF;
+	text-align: left;
+	padding: 25px;
+	margin-bottom: 20px;
+	border: 1px solid #1e90ff;
+	cursor: pointer;
+}
+.label, .title{
+	font-weight: bold;
+}
+
+.viewBtn{
+	padding: 10px;
+	background-color: #1e90ff;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
