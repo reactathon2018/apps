@@ -15,5 +15,18 @@
    4. Training - Choose language, then list all training links, future (it should be dynamic training like secure code warrior)
    5. Reports  - Org Level, DH level, Mgr Level
    6. Search - General Search
-  
-  
+   
+# Services
+   1. Rest Services http://localhost:3000
+   2. GUI - http://localhost:4000/
+   
+# Tech Stack
+   1. MongoDB
+   2. MongoDB Compass
+   3. GraphQL Express Server
+   4. Mongoose
+   5. React JS
+   
+# What is done
+   
+ 
