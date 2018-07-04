@@ -1,0 +1,26 @@
+    "ApplicationId": "9001",
+    "JobId": "12345678",
+    "JobTitle": "Sr.Developer",
+    "JobDescription": "Responsible for development",
+    "Positionopendate": "12-06-2018",
+    "Positionclosedate": "08-07-2018",
+    "SkillSet": "React JS",
+    "Experience": "3-5",
+    "Location": "Chennai",
+    "CandidateId": "8001",
+    "CandidateName": "John Canada",
+    "CandidateSkillset": "React JS,JAVA",
+    "CandidateLocation": "Chennai",
+    "CandidateExperience": "5",
+    "CandidateEmail": "test@test.com",
+    "CandidateMobile": "9258963255",
+    "status": "applied"
+
+
+git config --global http.proxy http://proxy.ebiz.verizon.com:80
+
+
+https://api.mlab.com/api/1/databases/jobsearch/collections/jobsearch?q=%7B%22JobTitle%22%3A%22Sr.Developer%22%7D&s=&f=&pageSize=10&pageNum=0&apiKey=LWRY3xoIDa7rxsl-s5zy0DV2HPjoVZi4
+
+
+https://api.mlab.com/api/1/databases/jobsearch/collections/jobsearch?f={%22JobId%22:%201,%20%22JobTitle%22:%201}&apiKey=LWRY3xoIDa7rxsl-s5zy0DV2HPjoVZi4
