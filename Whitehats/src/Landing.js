@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import green from '@material-ui/core/colors/green';
 import Feedback from './Feedback';
 import SearchCareers from './SearchCareers';
+import Myjobs from './Myjobs';
 
 function TabContainer(props) {
   const { children, dir } = props;
@@ -79,7 +80,7 @@ class Landing extends React.Component {
           index={this.state.value}
           onChangeIndex={this.handleChangeIndex}>
           <TabContainer dir={theme.direction}><SearchCareers /></TabContainer>
-          <TabContainer dir={theme.direction}>My Jobs</TabContainer>
+          <TabContainer dir={theme.direction}><Myjobs /></TabContainer>
           <TabContainer dir={theme.direction}><Feedback /></TabContainer>
         </SwipeableViews>
        </div>
