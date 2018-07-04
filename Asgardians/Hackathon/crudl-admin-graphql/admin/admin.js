@@ -16,7 +16,7 @@ const OPTIONS = {
 }
 
 var admin = {}
-admin.title = 'crudl.io Express GraphQL Example',
+admin.title = 'Verizon Hackathon Express',
 admin.options = OPTIONS
 admin.views = { users, sections, categories, tags, entries, hackathons }
 admin.auth = { login, logout }
