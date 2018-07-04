@@ -1,5 +1,5 @@
 .header { 
-  background: #eee url("../../careerportal.jpg");
+  background: #333 url("../../careerportal.jpg");
   background-size: cover;
   border-bottom: 1px solid #ccc;
 }
@@ -20,7 +20,7 @@
 
 .site-title a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-weight: bolder;
 }
 
@@ -58,9 +58,6 @@
   font-weight: bolder;
 }
 
-.selected {
-  border-bottom: 1px solid #fff;
-}
 
 @media (max-width: 767px){
   .add-post-button{
