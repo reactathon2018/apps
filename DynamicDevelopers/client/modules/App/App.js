@@ -37,7 +37,7 @@ export class App extends Component {
       <div>
         <div>
           <Helmet
-            title="Verizon Careers"
+            title="Dynamic Careers"
             titleTemplate="%s - Lynk App"
             meta={[
               { charset: 'utf-8' },

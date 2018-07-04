@@ -1,0 +1,25 @@
+{
+  "name": "job-careers-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merlin10081996/job-careers-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merlin10081996/job-careers-code/issues"
+  },
+  "homepage": "https://github.com/merlin10081996/job-careers-code#readme"
+}
