@@ -2,6 +2,13 @@
 
 Readme to be done
 
+## Team Members:
+
+1. Bharatwaaj Shankar
+2. Arun Kumar
+3. Kaushik Nagarajan
+4. Hari Santhosh
+
 ## Links:
 
 + [Live Preview](https://zwq3nk5olm.codesandbox.io)
