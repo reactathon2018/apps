@@ -1,0 +1,35 @@
+-- queries to run
+create table user_tbl(userId varchar,userDet JSON);
+create table user_job(userId varchar,jobcodes JSON);
+create table job(jobCode varchar,jobDet JSON);
+insert into user_tbl(userid,userDet) values('1','{"name":"Indu","uniqueId":"1234","email":"indu.pandian@verizon.com","contact":"9790554090","empType":"C"}');
+insert into user_tbl(userid,userDet) values('2','{"name":"Amsa","uniqueId":"12634","email":"ams.singaravelu@verizon.com","contact":"8220592059","empType":"C"}');
+insert into user_job(userid,jobcodes) values('1','{"codes":["123","456","789"]}');
+insert into user_job(userid,jobcodes) values('2','{"codes":["1ab","1bc","1cd"]}');
+insert into job(jobCode,jobDet)  values('123','{"jobCode":"123","Title":"myTest","description":"desc","primarySkills":"java"}');
+insert into job(jobCode,jobDet)  values('456','{"jobCode":"456","Title":"myTest2","description":"desc2","primarySkills":"java"}');
+insert into job(jobCode,jobDet)  values('1ab12','{"jobCode":"1ab12","Title":"System Analyst","description":"role of a developer","primarySkills":["Java","J2EE"],"secondarySkills":["Oracle","JS"],"scheduling":{"venue":"OTP","date":"2018-08-01"},"status":"Open","noOfPosting":"5"}');
+insert into job(jobCode,jobDet)  values('1bc3','{"jobCode":"1bc3","Title":"System Specialist","description":"role of a senior developer","primarySkills":["Java","Spring boot"],"secondarySkills":["Angular","React"],"scheduling":{"venue":"OTP","date":"2018-08-01"},"status":"Open","noOfPosting":"6"}');
+
+
+-- My reference
+select * from user_tbl where userDet->>'name' in ('Amsa','Indu');
+select userDet->>'email' from user_tbl where userDet->>'name' in ('Amsa','Indu');
+
+CREATE TABLE public.job
+(
+    jobcode character varying COLLATE pg_catalog."default" NOT NULL,
+    jobdet json,
+    CONSTRAINT job_pkey PRIMARY KEY (jobcode) -- primary key
+)
+
+
+
+CREATE TABLE public.notes
+(
+    jobcode character varying COLLATE pg_catalog."default",
+    userid integer,
+    notes json,
+    mgmtnotes json,
+    CONSTRAINT notes_jobcode_userid_key UNIQUE (jobcode, userid) -- unique constraint
+)

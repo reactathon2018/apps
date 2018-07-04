@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  font-family: 'Markazi Text', serif;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  padding-top: 1em;
+  background-color: #34495e;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Markazi Text', serif;
+}
+
+p,
+li {
+  font-size: 3rem;
+}
+
+a {
+  color: #ecf0f1;
+  text-decoration: None;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+select,
+textarea {
+  padding: 0.4em 0.2em;
+  font-size: 1.2rem;
+}
+
+.active {
+  font-weight: bold;
+  color: #f1c40f;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.delete-button {
+  color: red;
+  cursor: pointer;
+}

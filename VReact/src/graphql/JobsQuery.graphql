@@ -1,0 +1,7 @@
+query allJobs {
+  jobs {
+    _id
+    title
+    desc
+  }
+}
