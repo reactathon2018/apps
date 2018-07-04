@@ -1,0 +1,21 @@
+{
+  "name": "eventCarousel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLink": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

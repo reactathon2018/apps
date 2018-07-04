@@ -1,0 +1,26 @@
+{
+  "name": "participantBadges",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "scoreRange": {
+      "type": "number",
+      "required": true
+    },
+    "imagePath": {
+      "type": "string",
+      "required": true
+    },
+    "badgeName": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

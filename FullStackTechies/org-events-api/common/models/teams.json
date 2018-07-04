@@ -1,0 +1,44 @@
+{
+  "name": "teams",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "teamId": {
+      "type": "number",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "participants": {
+      "type": [
+        "any"
+      ],
+      "required": true
+    },
+    "resultRating": {
+      "type": "string",
+      "required": true
+    },
+    "assetPath": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "teamsList": {
+      "type": "belongsTo",
+      "model": "events",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
