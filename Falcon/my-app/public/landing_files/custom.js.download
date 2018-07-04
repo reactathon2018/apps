@@ -1,0 +1,224 @@
+/** Document Ready Functions **/
+/********************************************************************/
+
+$( document ).ready(function() {
+	
+	//location click go dropdown
+	$('.go-btn').on('click', function(){
+		var location = $(this).parent().find('.ddContent').text();
+		if(location == "Americas"){
+			window.location.href = "/careers/bemore-usa/";
+		} else if(location == "Europe, Middle East and Africa"|| location =="EMEA"){
+			window.location.href = "https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25633&siteid=5439";
+		} else if(location == "Asia and Pacific"||location=="APAC"){
+			window.location.href = "https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25633&siteid=5439";
+		} else if(location == "India"){
+			window.location.href = "https://careers.infosys.com/CareerSite/Aspx/JobsToWeb/JobOpenings.Aspx?CountryCode=IN&Company=IL";
+		} else if(location == "China"){
+			window.location.href = "https://careers.infosys.com/CareerSite/Aspx/JobsToWeb/JobOpenings.Aspx?CountryCode=CN&Company=IL%20CN";
+		}
+	})
+	
+	/*Video overlay modal popup*/
+	var frame_src = "";
+	$('.play-video').on('click', function(ev) {
+		frame_src = $(this).data("index");
+		$("#video")[0].src = frame_src + "?autoplay=1&rel=0&iv_load_policy=3";
+		ev.preventDefault();
+	});
+  
+	$('#videoOverlay').on('hidden.bs.modal', function (e) {
+		frame_src = "";
+		$("#video")[0].src= frame_src;
+    });
+	
+	//on Click country
+	$(document.body).click(function() {
+		$('.location-sublist').hide();
+	});
+	$('.country-names li').click(function(e) {
+		e.stopPropagation();
+		$(this).siblings().find('.location-sublist').hide();
+		$(this).find('.location-sublist').toggle();
+	});
+	$('.location-sublist').click(function(e) {
+		e.stopPropagation();
+		$(this).show();
+	});
+	$('.location-sublist .close-new').click(function(e) {
+		e.stopPropagation();
+		$(this).parent().hide();
+	});
+	
+	 //mobilemenu
+	$('.menuIcon_mobile').on('click', function(){
+		if($('.mobilemenu').is(':visible')){
+			$('.mobilemenu').slideUp('100');
+		}
+		else{
+			$('.mobilemenu').slideDown('100');
+		}
+	})
+	$('.mainMenu').click(function(e) {
+		if($(this).find('.fa').hasClass('fa-plus')){
+        	$(this).find('.fa').removeClass('fa-plus').addClass('fa-minus');
+			$(this).siblings('.sub-nav').slideDown('100');
+		}else{
+			$(this).find('.fa').removeClass('fa-minus').addClass('fa-plus');
+			$(this).siblings('.sub-nav').slideUp('100');
+		}
+    });
+	
+	/* start: on click parent */
+	$('.close-parent').on("click", function () {
+		$(this).parents("div.tab-pane").removeClass("active");$(this).parents("div.tab-pane").removeClass("in");
+	});
+	/* start: on click parent */
+	
+	
+	$(window).on("load resize scroll",function(e){
+		if ($(window).width() >=768) {
+			if ($(window).scrollTop() >= $(window).height()-200) {
+			   $('.video-footer-overlay').addClass('fixed-header');
+			}
+			else {
+			   $('.video-footer-overlay').removeClass('fixed-header');
+			}
+			// Resive video
+			scaleBannerVideoSize('.homepage-hero-module');
+		}
+		else {
+			$('.video-footer-overlay').removeClass('fixed-header');			
+		}
+		setmaxheight($('.blue-light-head .partner'));		
+		scaleBannerVideoSize('.homepage-hero-module');
+	});
+	
+	// Hide Header on on scroll down
+	var didScroll;
+	var lastScrollTop = 0;
+	var delta = 5;
+	var navbarHeight = $('.subnav').outerHeight();
+	
+	$(window).scroll(function(event){
+		didScroll = true;
+	});
+	
+	setInterval(function() {
+		if (didScroll) {
+			hasScrolled();
+			didScroll = false;
+		}
+	}, 250);
+	
+	function hasScrolled() {
+		var st = $(this).scrollTop();
+		
+		// Make sure they scroll more than delta
+		if(Math.abs(lastScrollTop - st) <= delta)
+			return;
+		
+		// If they scrolled down and are past the navbar, add class .nav-up.
+		// This is necessary so you never see what is "behind" the navbar.
+		if (st > lastScrollTop && st > navbarHeight){
+			// Scroll Down
+			$('.subnav').removeClass('nav-down').addClass('nav-up');
+		} else {
+			// Scroll Up
+			if(st + $(window).height() < $(document).height()) {
+				$('.subnav').removeClass('nav-up').addClass('nav-down');
+			}
+		}
+		
+		lastScrollTop = st;
+	}
+
+	/* --------------------------------------------------------	
+	 Scroll Top
+   --------------------------------------------------------	*/	
+   //Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 10) {
+						$('.scrollToTop').fadeIn();
+		} else {
+						$('.scrollToTop').fadeOut();
+		}
+	});
+					
+	//Click event to scroll to top
+	$('.scrollToTop').on('click touchstart', function(){
+					$('html, body').animate({scrollTop : 0},200);
+					
+	});
+	
+	
+	
+	/* starts: check hamburger toggle is vissible 
+	if ($('.navbar-toggle').is(":visible"))
+	{		 
+		 $( ".navbar-header" ).after( $( ".navbar-collapse" ) );
+	}else	{
+		$( ".navbar-header" ).prependTo("#content");
+	}
+	
+	$(window).resize(function(){
+		if ($('.navbar-toggle').is(":visible"))
+		{		 
+			 $( ".navbar-brand" ).before( $( ".navbar-collapse" ) );		
+		}else	{
+			$(".navbar-header").prependTo("#content");
+		}
+	});
+	 ends: check hamburger toggle is vissible */
+
+	
+	/* onclick combo-box selection */
+	$(".dropdown-menu li a").click(function(){
+	  var selText = $(this).text();
+	  $(this).closest('.dropdown').find('.dropdown-toggle .ddContent').html(selText);
+	});
+	
+	/* ends: onclick combo-box selection  */
+	if ($(".cardFlip").length) {
+		$(".cardFlip").flip({
+			axis: "x", // y or x
+			reverse: false, // true and false
+			trigger: "click", // click or hover
+			speed: 800
+		});
+	}	   
+	
+	// Set max height
+	function setmaxheight(section) {
+        var height = 0;
+        section.each(function(e) {
+            height = Math.max.apply(null, section.map(function() {return $(this).find('.partner-bx').outerHeight();}).get());
+        });
+        section.css("max-height", height+15);
+	}
+});
+
+/** Reusable Functions **/
+/********************************************************************/
+
+function scaleBannerVideoSize(container) {
+	var element = $(container);
+    var videoHeight = $(container).find('video').attr('height');
+	var videoWidth = $(container).find('video').attr('width');
+    var aspectRatio = videoHeight / videoWidth;
+	var windowWidth = $(window).width();
+	var windowHeight = ($(window).height()*70)/100;
+	if ($(window).width() >=750) {
+		element.width(Math.ceil(windowWidth));
+		element.height(Math.ceil(windowWidth *aspectRatio));
+
+		if(windowHeight < element.height()) {
+			element.width(Math.ceil(windowWidth));
+			element.height(Math.ceil(windowHeight));
+		}
+	}
+	else {
+		element.css('height','auto');
+		element.css('width','auto');
+	}
+}

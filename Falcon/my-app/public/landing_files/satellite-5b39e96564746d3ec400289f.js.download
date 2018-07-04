@@ -1,0 +1,10 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  $('.button').click(function(){
+    s.linkTrackVars="evar39, events";
+    s.linkTrackEvents="event60";
+    s.linktrackvars= 
+    s.events="event60";
+    s.tl(this,'o','REGISTER NOW Button');
+console.log( $(this).href('value').attr('alt'))
+});
+});

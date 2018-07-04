@@ -1,0 +1,54 @@
+Responsibilities- Power Programmer is an important initiative within Global Delivery to develop a team of Full Stack Developers who will be working on complex engineering projects, platforms and marketplaces for our clients using emerging technologies. They will be ahead of the technology curve and will be constantly enabled and trained to be Polyglots. They are Go-Getters with a drive to solve end customer challenges and will spend most of their time in designing and coding
+
+
+
+
+use db
+
+db.createCollection("Opportunities")
+
+db.Opportunities.insert([
+{
+JobCode:"6001",
+JobType:"Front End Developer",
+Summary:"Devlopment of Front End design with new Technology stack",
+PrimarySkills:"ReactJS, Angular JS",
+SecondarySkills:"Ajax,Bootstrap",
+YearsOfExperience:"2-4 Years",
+NumberofOpenings:"7",
+JobLocation:"Chennai,Hyderabad"
+},
+{
+JobCode:"6002",
+JobType:"Java Developer",
+Summary:"Responsibilities Power Programmer is an important initiative within Global Delivery to develop a team of Full Stack Developers who will be working",
+PrimarySkills:"JAVA, J2EE",
+SecondarySkills:"Play,Rest, Web Services, Hibernate",
+YearsOfExperience:"3-5 Years",
+NumberofOpenings:"5",
+JobLocation:"Chennai"
+},
+{
+JobCode:"6003",
+JobType:"DotNet Developer",
+Summary:"Responsibilities Power Programmer is an important initiative within Global Delivery to develop a team of Full Stack Developers who will be working",
+PrimarySkills:"Dot net 4.5,MVC,Angular",
+SecondarySkills:"Rest, Web Services, Node JS",
+YearsOfExperience:"4-6 Years",
+NumberofOpenings:"3",
+JobLocation:"Hyderabad"
+},
+{
+JobCode:"6004",
+JobType:"FullStack Developer",
+Summary:"Responsibilities Power Programmer is an important initiative within Global Delivery to develop a team of Full Stack Developers who will be working",
+PrimarySkills:"Java,SpringBoot,Angular,NodeJS",
+SecondarySkills:"Web Services, Mongo DB",
+YearsOfExperience:"5-8 Years",
+NumberofOpenings:"5",
+JobLocation:"Hyderabad, Chennai"
+}
+])
+
+
+
