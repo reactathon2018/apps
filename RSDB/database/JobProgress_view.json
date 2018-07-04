@@ -1,0 +1,48 @@
+{ 
+    "_id" : ObjectId("5b3b0a8af11c750450a64f2c"), 
+    "UserId" : NumberLong(2540001), 
+    "JobId" : NumberLong(55321), 
+    "ApplyDate" : ISODate("2018-07-01T05:33:30.602+0000")
+}
+{ 
+    "_id" : ObjectId("5b3c9a09a4a01a0ea8a5a439"), 
+    "UserId" : NumberInt(2540002), 
+    "JobId" : NumberInt(55321), 
+    "ApplyDate" : "07/04/2018"
+}
+{ 
+    "_id" : ObjectId("5b3c9a5219d08a2790c9bc65"), 
+    "UserId" : NumberInt(2540002), 
+    "JobId" : NumberInt(55321), 
+    "ApplyDate" : "07/04/2018"
+}
+{ 
+    "_id" : ObjectId("5b3c9a8585042923c854a868"), 
+    "UserId" : NumberInt(2540002), 
+    "JobId" : NumberInt(55321), 
+    "ApplyDate" : "07/04/2018"
+}
+{ 
+    "_id" : ObjectId("5b3c9ab134cd710f3015fcb3"), 
+    "UserId" : NumberInt(2540002), 
+    "JobId" : NumberInt(55321), 
+    "ApplyDate" : "07/04/2018"
+}
+{ 
+    "_id" : ObjectId("5b3c9e3c63d0ac20e838ef0a"), 
+    "UserId" : NumberInt(2540002), 
+    "JobId" : NumberInt(55321), 
+    "ApplyDate" : "07/04/2018"
+}
+{ 
+    "_id" : ObjectId("5b3ca0f751581810f4d21904"), 
+    "UserId" : NumberInt(2540002), 
+    "JobId" : NumberInt(55322), 
+    "ApplyDate" : "07/04/2018"
+}
+{ 
+    "_id" : ObjectId("5b3cafe8f614742664781184"), 
+    "UserId" : "", 
+    "JobId" : NumberInt(55321), 
+    "ApplyDate" : null
+}

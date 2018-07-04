@@ -16,11 +16,11 @@ var userSchema = new Schema({
   },
   badges: {
     type: Number,
-    required: true
+    required: false
   },
   score: {
     type: Number,
-    required: true
+    required: false
   },
   role: {
     type: String,

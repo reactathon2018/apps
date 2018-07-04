@@ -1,0 +1,52 @@
+{ 
+    "_id" : ObjectId("5b3a17d8b043a71094324c27"), 
+    "UserId" : NumberLong(2540001), 
+    "UserTypeId" : NumberLong(1), 
+    "Email" : "davis.raj@gmail.com", 
+    "Password" : "Dav@2018", 
+    "DateOfBirth" : ISODate("1989-07-14T00:00:00.000+0000"), 
+    "Gender" : "M", 
+    "IsActive" : "Y", 
+    "ContactNumber" : NumberLong(9159257964), 
+    "UserName" : "DavisRajan", 
+    "FullName" : "Davis Rajan A"
+}
+{ 
+    "_id" : ObjectId("5b3a1a7ab043a71094324c30"), 
+    "UserId" : NumberLong(2540002), 
+    "UserTypeId" : NumberLong(1), 
+    "Email" : "raja.p@gmail.com", 
+    "Password" : "Raja@2018", 
+    "DateOfBirth" : ISODate("1989-06-12T00:00:00.000+0000"), 
+    "Gender" : "M", 
+    "IsActive" : "Y", 
+    "ContactNumber" : "9600012000", 
+    "UserName" : "RajaP", 
+    "FullName" : "Rajalingam P"
+}
+{ 
+    "_id" : ObjectId("5b3a3e86f11c7504b46bcecb"), 
+    "UserId" : NumberLong(3560001), 
+    "UserTypeId" : NumberLong(2), 
+    "Email" : "selva.padbanabam@gmail.com", 
+    "Password" : "Selva@2018", 
+    "DateOfBirth" : ISODate("1989-05-10T00:00:00.000+0000"), 
+    "Gender" : "M", 
+    "IsActive" : "Y", 
+    "ContactNumber" : NumberLong(8600186002), 
+    "UserName" : "SelvaP", 
+    "FullName" : "SelvaKumar P"
+}
+{ 
+    "_id" : ObjectId("5b3a3fe4f11c7504b46bcecd"), 
+    "UserId" : NumberLong(4250001), 
+    "UserTypeId" : NumberLong(3), 
+    "Email" : "ca.ba@gmail.com", 
+    "Password" : "Caba@2018", 
+    "DateOfBirth" : ISODate("1989-05-19T00:00:00.000+0000"), 
+    "Gender" : "M", 
+    "IsActive" : "Y", 
+    "ContactNumber" : NumberLong(8523145687), 
+    "UserName" : "Caba", 
+    "FullName" : "Balaji C A"
+}

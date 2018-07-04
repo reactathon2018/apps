@@ -18,7 +18,7 @@ export class SignUpModalContainer extends React.Component {
     componentDidUpdate() {
         if (this.props.isAutenticated) {
             alert("Welcome !! Your Profile has been created successfully");
-            //this.props.hideModal();
+            this.props.hideModal();
         }
     }
 
