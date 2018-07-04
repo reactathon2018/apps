@@ -1,0 +1,15 @@
+.navContainer {
+  position: absolute;
+  left: 40px;
+  width: 100%;
+  top: 100px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #006b61 !important;
+}
+
+a.nav-link {
+  color: #006b61;
+}
