@@ -13,6 +13,13 @@ export default class Nomination extends React.Component {
           required='true'
           type='text'
         />
+        <Input
+          hasLabel='true'
+          htmlFor='organization'
+          label='Organization'
+          required='true'
+          type='text'
+        />        
         <Textarea
           hasLabel='true'
           htmlFor='team Members'

@@ -1,0 +1,48 @@
+
+.progressContainer {
+    margin:15px;
+}
+
+.progressTracker {
+  display: flex;
+  margin: 0;
+  counter-reset: item;
+  list-style-type: none;
+  padding: 0
+}
+.progressTracker .step:before,.progressTracker .stepActive:before,.progressTracker .stepCompleted:before {
+  background: #AAAAAA;
+  border-radius: 20px;
+  color: #FFFFFF;
+  content: "";
+  font-size: 18px;
+  line-height: 1.8em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  content: counter(item) "  "; 
+  counter-increment: item;
+}
+.progressTracker .step,.progressTracker .stepActive,.progressTracker .stepCompleted {flex: 1;}
+.progressTracker .step .stepName,.progressTracker .stepCompleted .stepName,.progressTracker .stepActive .stepName{
+	display: inline-flex;
+  margin: 0 0 0 15px;	
+  background: #dddddd;
+  height: 35px;
+  width: 100%;
+  align-items: center;
+  padding: 0 30px;
+  color: #777777;
+  line-height: 1.2em;
+  font-size: 13px;
+}
+.progressTracker .step:last-child .stepName{ border-radius: 0 20px 20px 0; width: calc(100% - 45px)}
+.progressTracker .stepActive .stepName {color: #333333; font-weight: bold;}
+.progressTracker .stepActive:before {background: #46c0f5;}
+.progressTracker .stepCompleted:before {background: #87db55; content: "\2714"}

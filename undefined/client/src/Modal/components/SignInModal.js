@@ -12,7 +12,7 @@ export default class SignInModal extends React.Component {
           <h2>Sign In</h2>
           <SignIn onSubmit={this.props.onSubmit} />
           {
-            (this.props.loading) && <div style={{ margin: 10}}> <p style={{color : "red"}}> Please wait, we are validating </p> </div>
+            (this.props.loading) && <div style={{ margin: 10}}> <p style={{color : "green"}}> Please wait, we are validating </p> </div>
           }
           {
             (this.props.error) && <div style={{ margin: 10}}> <p style={{color : "red"}}> {error.message} </p> </div>
