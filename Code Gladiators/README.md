@@ -11,7 +11,6 @@ Readme to be done
 Quick start options:
 
 - [Download from Github](TBD).
-- [Download from Creative Tim](TBD).
 - Clone the repo: `git clone TBD`.
 
 ## Terminal Commands
