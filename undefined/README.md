@@ -13,12 +13,14 @@
 2. GraphQL
 3. MongoDB with Mongoose
 
-#####Capabilities :
-1. Users can view all the events with is summary and detailed view.
+##### Capabilities :
+1. Users can view all the events with its summary and detailed view.
 2. Portal has detailed view of who is participating, who is leading status etc.
 3. User's can signup and register for an event they are interested in.
 4. Role wise segregation, where user can view their own details like score, badges etc and admin can see overall performance, rate solution and view KPI's
 5. Portal includes a chat window, where the users interact with each other.
+6. Leader board, shows an clear view of who is leading.
+7. Admin can create events, manage events, manage users and build kpis.
 
 ### Demo
 A live demo of the app can be seen [here](https://pages.github.com/).
