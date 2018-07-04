@@ -1,0 +1,114 @@
+/**
+ * General styles
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+main {
+  margin: 0 0 20px 0;
+}
+.navbar .container {
+  width: 100% !important;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #5c5757;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar-nav li>a>a {
+  color: rgb(185, 184, 184);
+  text-decoration:none;
+}
+.navbar-nav li>a>a:hover {
+  color: #FFF;
+  text-decoration:none;
+}
+.c3-text {
+  font-size: 15px;
+}
+.c3-axis .tick>text {
+  font-size: 14px;
+  font-weight: bold;
+}
+.c3-legend-item>text {
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn {
+  background-color: #5ed0f0;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #61bafb;
+}
+
+.setup-alert {
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+.align-left{
+  text-align: left;
+}
+/**
+ * create-react-app styles
+ */
+.App {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+a {
+    color: black;
+}
+.App-header {
+  text-align: center;
+  background-color: #222;
+  height: 170px;
+  padding: 20px;
+  color: white;
+}
+.body-container {
+  /*background-color: rgb(60, 66, 82);*/
+}
+.navbar>.container .navbar-brand,
+.navbar-default .navbar-nav>li>a
+ {
+  color: #b9b8b8;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FFF;
+}
+.clear {
+  overflow: hidden;
+  position:  relative;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
