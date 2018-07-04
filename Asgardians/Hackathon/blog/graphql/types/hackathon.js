@@ -33,6 +33,9 @@ let HackathonType = new GraphQLObjectType({
         },
         emailAddress: {
             type: GraphQLString
+        },
+        summary: {
+            type: GraphQLString
         }
     })
 })
@@ -63,7 +66,10 @@ let HackathonInputType = new GraphQLInputObjectType({
         },
         emailAddress: {
             type: GraphQLString
-        }
+        },
+        summary: {
+            type: GraphQLString
+        },
     })
 })
 

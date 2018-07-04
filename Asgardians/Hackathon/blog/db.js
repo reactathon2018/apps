@@ -152,6 +152,7 @@ var HackathonSchema = new Schema({
     startDate: { type: Date },
     endDate: { type: Date },
     emailAddress: { type: String, maxlength: 500, default: '', set: omitUndefined },
+    summary: { type: String, maxlength: 500, default: '', set: omitUndefined },
 })
 HackathonSchema.pre('save', function(next) {
     this.updatedate = Date.now()

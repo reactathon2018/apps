@@ -5,7 +5,7 @@ import { createResourceConnector } from '../connectors'
 import continuousPagination from '../connectors/middleware/continuousPagination'
 
 const entryFields = '_id, id, name, status, ' +
-                    'startDate, endDate, ' +
+                    'startDate, endDate,summary ' +
                     'emailAddress'
 const hackathons = createResourceConnector('hackathons', entryFields).use(continuousPagination(20)) // page limit 20
 
@@ -175,7 +175,17 @@ var fieldsets = [
             //     },
             // }
         ]
-    }    
+    },
+    {
+        fields: [
+            {
+                name: 'summary',
+                label: 'Summary',
+                field: 'Textarea'
+            }
+        ]
+    }
+       
 ]
 
 var changeView = {
