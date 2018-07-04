@@ -45,6 +45,7 @@ mongoose.connection.once('open', function () {
     })
     // crudl core
     app.use('/crudl/crudl.js', express.static(__dirname + '/../static/crudl/crudl.js'))
+     app.use('/verizon-custom/', express.static(__dirname + '/../verizon-custom/'))
     app.use('/crudl/', express.static(__dirname + '/../static/crudl/'))
     app.use('/crudl/crudl.js', (req, res) =>
         res.redirect('http://cdn.crudl.io/static/releases/0.3.0/crudl.min.js'))

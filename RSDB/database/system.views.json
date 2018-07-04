@@ -1,0 +1,11 @@
+{ 
+    "_id" : "JobPortal.JobProgress_view", 
+    "viewOn" : "JobProgress", 
+    "pipeline" : [
+        {
+            "$match" : {
+
+            }
+        }
+    ]
+}
