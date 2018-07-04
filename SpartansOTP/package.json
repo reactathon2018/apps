@@ -1,0 +1,29 @@
+{
+  "name": "reactathon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "glyphicons": "^0.2.0",
+    "graphql": "^0.13.2",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.2.0",
+    "axios": "^0.14.0",
+    "body-parser": "^1.15.2",
+    "foreman": "^2.0.0",
+    "mongoose": "^4.6.0",
+    "nodemon": "^1.10.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-dev": "nf start -p 3000",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
