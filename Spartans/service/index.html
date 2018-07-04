@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GraphQL Express</title>
+</head>
+<body>
+	<hr>
+	<h1>Testing a simple GraphQL Server</h2>
+	<hr>
+	<h2>This is just a normal POST</h2>	
+	<div>Enter a new item in the text box and hit Submit to save it to the database</div>
+
+	<form action="/quotes" method="POST">
+		<input type="text" placeholder="item" name="item">
+		<button type="submit">Submit</button>
+	</form>
+	<hr>
+	<form action="/insertlogin" method="POST">
+		<input type="text" placeholder="vzid" name="vzid">
+		<input type="text" placeholder="userId" name="userId">
+		<input type="text" placeholder="pass" name="pass">
+		<button type="submit">Submit</button>
+	</form>
+	<hr>
+	<form action="/insertuser" method="POST">
+		<input type="text" placeholder="vzid" name="vzid">
+		<input type="text" placeholder="empId" name="empId">
+		<input type="text" placeholder="firstname" name="firstname">
+		<input type="text" placeholder="lastname" name="lastname">
+		<input type="text" placeholder="reportsTo" name="reportsTo">
+		<button type="submit">Submit</button>
+	</form>
+	
+
+	<h2>GraphQL Test</h2>
+	<hr>
+	<div>
+		<a href="/graphql?query={todo(itemId:1){itemId,item}}">GraphQL Test</a>
+		<br></br>
+		<a href="/loginql?query={login(userId:2427892){vzid,pass,userId,token}}">Login Test</a>
+
+		<br></br>
+		<a href="/userql?query={user(vzid:vxxx01){vzid,firstname,lastname,reportsTo}}">User Test</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.bar {
+  width: 100%;
+  height: 100%;
+  padding: 0 7rem;
+  background: #fff;
+  /* margin-top:  6.5rem; */
+  top:0;
+  left: 0;
+  border-bottom: 0.2rem solid var(--off-white);
+}
+
+.appname{
+  margin-left: 170px;
+  margin-top: -50px;
+  color: darkred;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.logo{
+  margin-top: -70px;
+}
+.bar-user-details {
+  float: right;
+  display: flex;
+  width: 20rem;
+  margin-top: -40px;
+  /*height: 100%;*/
+  padding: 0 2rem;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border-left: 0.2rem solid var(--off-white);
+}
+
+.user-dp {
+  width: 2.8rem;
+}
+
+.user-dp > img {
+  height: 100%;
+  width: 100%;
+}
+
+.user-name {
+  font-size: 1.6rem;
+  vertical-align: super;
+  padding: 0 0.2rem;
+}
