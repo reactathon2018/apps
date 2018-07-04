@@ -7,7 +7,7 @@ class CustomDashboard extends React.Component {
                 <div className="mgs-row">
                     <div className="box">
                         <h3>About</h3>
-                        <p>Verizon Hackthon Dashboard 2</p>
+                        <p>Verizon Hackthon Dashboard</p>
                     </div>
                 </div>
             </div> 
