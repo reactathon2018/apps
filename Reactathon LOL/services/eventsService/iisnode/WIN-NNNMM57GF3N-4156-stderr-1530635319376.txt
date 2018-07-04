@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+MongoError: limit requires an integer
+    at Function.MongoError.create (C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\node_modules\mongodb-core\lib\error.js:49:10)
+    at Cursor.limit (C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\node_modules\mongodb\lib\cursor.js:636:22)
+    at C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\data\teams.js:87:137
+    at result (C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\node_modules\mongodb\lib\utils.js:414:17)
+    at executeCallback (C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\node_modules\mongodb\lib\utils.js:406:9)
+    at err (C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\node_modules\mongodb\lib\operations\mongo_client_ops.js:285:5)
+    at connectCallback (C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\node_modules\mongodb\lib\operations\mongo_client_ops.js:240:5)
+    at process.nextTick (C:\Users\Administrator\Desktop\Github\reactathon-lol\services\eventsService\node_modules\mongodb\lib\operations\mongo_client_ops.js:436:7)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)

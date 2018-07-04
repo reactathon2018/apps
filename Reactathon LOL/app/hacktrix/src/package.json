@@ -1,0 +1,16 @@
+{
+  "title": "Material demo",
+  "description":
+    "https://github.com/mui-org/material-ui/tree/master/docs/src/pages/demos/cards/RecipeReviewCard.js",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "axios": "0.18.0",
+    "classnames": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-native": "0.55.4",
+    "react-router-dom": "4.3.1"
+  }
+}

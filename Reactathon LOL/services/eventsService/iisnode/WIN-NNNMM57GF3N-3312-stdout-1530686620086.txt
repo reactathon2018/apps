@@ -1,0 +1,3691 @@
+DAL API Server listening at http://127.0.0.1:\\.\pipe\d2245f05-328c-44ca-8e0a-0c012d853c6e
+DAL DB Server listening at 127.0.0.1:27017
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Teams Service Contacted...
+Service Request Teams Id : 2 Record Limit : 10
+Teams Over and out..
+[ { _id: 5b3c66e5b8937b0aa99efe4a,
+    teamId: 4,
+    teamName: 'Team 4',
+    teamDescription: 'Team 4 Description',
+    teamParticipants: [ 2, 4 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 90,
+    teamRecognition: 'Event 2 Winner' },
+  { _id: 5b3c66e5b8937b0aa99efe49,
+    teamId: 3,
+    teamName: 'Team 3',
+    teamDescription: 'Team 3 Description',
+    teamParticipants: [ 1, 3 ],
+    teamEventId: 2,
+    isTeamActive: true,
+    teamScore: [ [Object] ],
+    teamScoreMaxTotal: 70,
+    teamRecognition: 'Event 2 Runner Up' } ]
+Status: Success | Status Code: 200 | [object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : Live
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Upcoming
+Events Over and out..
+
+Events Service Contacted...
+Service Request Events Id : Previous
+Events Over and out..
+[ { _id: 5b3c67aab8937b0aa99efe54,
+    eventId: 4,
+    eventName: 'Event 4 (Live)',
+    eventDescription: 'Event 4 Description',
+    eventLongDescription: 'Event 4 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-06-22T10:50:42.389Z,
+    eventNominationStartDate: 2018-06-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-06-28T10:50:42.389Z,
+    eventStartDate: 2018-07-02T10:50:42.389Z,
+    eventEndDate: 2018-07-07T10:50:42.389Z,
+    eventDemoDate: 2018-07-12T10:50:42.389Z,
+    eventFinaleDate: 2018-07-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 165 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe55,
+    eventId: 5,
+    eventName: 'Event 5 (Future)',
+    eventDescription: 'Event 5 Description',
+    eventLongDescription: 'Event 5 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-07-20T10:50:42.389Z,
+    eventNominationStartDate: 2018-07-24T10:50:42.389Z,
+    eventNominationEndDate: 2018-07-28T10:50:42.389Z,
+    eventStartDate: 2018-08-02T10:50:42.389Z,
+    eventEndDate: 2018-08-07T10:50:42.389Z,
+    eventDemoDate: 2018-08-12T10:50:42.389Z,
+    eventFinaleDate: 2018-08-14T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [],
+    eventScoringMaxTotal: 0,
+    eventLikesCount: 0 } ]
+Status: Success | Status Code: 200 | [object Object]
+[ { _id: 5b3c67aab8937b0aa99efe51,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventLongDescription: 'Event 1 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2017-12-10T10:50:42.389Z,
+    eventNominationStartDate: 2017-12-20T10:50:42.389Z,
+    eventNominationEndDate: 2017-12-31T10:50:42.389Z,
+    eventStartDate: 2018-01-06T10:50:42.389Z,
+    eventEndDate: 2018-01-11T10:50:42.389Z,
+    eventDemoDate: 2018-01-20T10:50:42.389Z,
+    eventFinaleDate: 2018-01-24T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800,
+    eventLikesCount: 6 },
+  { _id: 5b3c67aab8937b0aa99efe52,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventLongDescription: 'Event 2 Long Description',
+    eventImageBanner: '',
+    eventReleaseDate: 2018-02-04T10:50:42.389Z,
+    eventNominationStartDate: 2018-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2018-02-16T10:50:42.389Z,
+    eventStartDate: 2018-02-22T10:50:42.389Z,
+    eventEndDate: 2018-02-27T10:50:42.389Z,
+    eventDemoDate: 2018-03-05T10:50:42.389Z,
+    eventFinaleDate: 2018-03-07T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150,
+    eventLikesCount: 3 } ]

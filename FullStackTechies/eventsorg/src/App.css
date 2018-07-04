@@ -30,3 +30,21 @@ body{
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.eventsblog{
+    background: #f3f3f3;
+    font-family: monospace;
+    padding: 20px;
+}
+
+.eventsblog div{
+   line-height: 1.8
+}
+
+.eventsblog h3{
+   margin-bottom: 5px
+}
+
+.eventsblog ul{
+   margin:0;
+}

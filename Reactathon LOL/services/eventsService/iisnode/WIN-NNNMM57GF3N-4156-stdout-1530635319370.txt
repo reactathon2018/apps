@@ -1,0 +1,6 @@
+DAL API Server listening at http://127.0.0.1:\\.\pipe\f51b5da8-c302-4bc9-99aa-cad8b43f6e76
+DAL DB Server listening at 127.0.0.1:27017
+
+Teams Service Contacted...
+Service Request Teams Id : 1 Record Limit : 2
+Teams Over and out..

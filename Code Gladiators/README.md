@@ -1,7 +1,7 @@
 # Code Gladiators - Hackathon Dashboard (Hackesia)
 
-Readme to be done
-This is a one stop for all the details pertaining to the hackathons and other gamification events conducted in our company.
+
+This is a one stop <b>PWA based App</b> for all the details pertaining to the hackathons and other gamification events conducted in our company.
 Users will have a detailed view of all the hackathons separated by whether they are upcoming, live or completed. After checking the problem statement the user is seamlessly provided with an option to register and participate in the hackathon. To improve participation and to reward the particiapants apart from the prizes of each hackathon we have also created a system to upvote and downvote users based on their solutions and display them in the leaderboard. Each user can earn badges and level up which will inturn result in poularity and recognition within the org.
 
 Administrators will be able to view with greater detail the number of teams participating, number of solutions etc. They also have the provision to add events too.
@@ -29,7 +29,9 @@ https://github.com/reactathon2018/apps/blob/master/Code%20Gladiators/AdminViewHa
 
 ## Links:
 
-+ [Live Preview](https://zwq3nk5olm.codesandbox.io)
++ [Live Preview 1](https://zwq3nk5olm.codesandbox.io)
++ [PWA Live Preview 2](https://reactathon-arunreturns.c9users.io/hack-dashboard)
+Caching assests
 
 ## Quick start
 

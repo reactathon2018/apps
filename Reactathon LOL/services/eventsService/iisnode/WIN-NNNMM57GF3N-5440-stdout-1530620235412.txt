@@ -1,0 +1,122 @@
+DAL API Server listening at http://127.0.0.1:\\.\pipe\da61bde5-df30-45dc-a0d6-60112925e171
+DAL DB Server listening at 127.0.0.1:27017
+
+Events Service Contacted...
+Service Request Events Id : 1
+Events Over and out..
+{ _id: 5b3b2b92e7e263a64518fb7c,
+  eventId: 1,
+  eventName: 'Event 1',
+  eventDescription: 'Event 1 Description',
+  eventReleaseDate: 2014-02-10T10:50:42.389Z,
+  eventNominationStartDate: 2014-02-10T10:50:42.389Z,
+  eventNominationEndDate: 2014-02-10T10:50:42.389Z,
+  eventStartDate: 2014-02-10T10:50:42.389Z,
+  eventEndDate: 2014-02-10T10:50:42.389Z,
+  eventDemoDate: 2014-02-10T10:50:42.389Z,
+  eventFinaleDate: 2014-02-10T10:50:42.389Z,
+  eventEnabled: true,
+  eventScoring: 
+   [ { Architecture: 100,
+       Design: 100,
+       Build: 100,
+       Dev: 100,
+       'Unit Testing': 100,
+       'System Testing': 100,
+       'Integration Testing': 100,
+       Deployment: 100 } ],
+  eventScoringMaxTotal: 800 }
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Event Id : all
+Events Over and out..
+[ { _id: 5b3b2b92e7e263a64518fb7c,
+    eventId: 1,
+    eventName: 'Event 1',
+    eventDescription: 'Event 1 Description',
+    eventReleaseDate: 2014-02-10T10:50:42.389Z,
+    eventNominationStartDate: 2014-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2014-02-10T10:50:42.389Z,
+    eventStartDate: 2014-02-10T10:50:42.389Z,
+    eventEndDate: 2014-02-10T10:50:42.389Z,
+    eventDemoDate: 2014-02-10T10:50:42.389Z,
+    eventFinaleDate: 2014-02-10T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 800 },
+  { _id: 5b3b2b92e7e263a64518fb7d,
+    eventId: 2,
+    eventName: 'Event 2',
+    eventDescription: 'Event 2 Description',
+    eventReleaseDate: 2014-02-10T10:50:42.389Z,
+    eventNominationStartDate: 2014-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2014-02-10T10:50:42.389Z,
+    eventStartDate: 2014-02-10T10:50:42.389Z,
+    eventEndDate: 2014-02-10T10:50:42.389Z,
+    eventDemoDate: 2014-02-10T10:50:42.389Z,
+    eventFinaleDate: 2014-02-10T10:50:42.389Z,
+    eventEnabled: true,
+    eventScoring: [ [Object] ],
+    eventScoringMaxTotal: 150 },
+  { _id: 5b3b2b92e7e263a64518fb7e,
+    eventId: 3,
+    eventName: 'Event 3 (Disabled)',
+    eventDescription: 'Event 3 Description',
+    eventReleaseDate: 2014-02-10T10:50:42.389Z,
+    eventNominationStartDate: 2014-02-10T10:50:42.389Z,
+    eventNominationEndDate: 2014-02-10T10:50:42.389Z,
+    eventStartDate: 2014-02-10T10:50:42.389Z,
+    eventEndDate: 2014-02-10T10:50:42.389Z,
+    eventDemoDate: 2014-02-10T10:50:42.389Z,
+    eventFinaleDate: 2014-02-10T10:50:42.389Z,
+    eventEnabled: false,
+    eventScoring: [],
+    eventScoringMaxTotal: 0 } ]
+Status: Success | Status Code: 200 | [object Object],[object Object],[object Object]
+
+Events Service Contacted...
+Service Request Events Id : 1
+Events Over and out..
+{ _id: 5b3b2b92e7e263a64518fb7c,
+  eventId: 1,
+  eventName: 'Event 1',
+  eventDescription: 'Event 1 Description',
+  eventReleaseDate: 2014-02-10T10:50:42.389Z,
+  eventNominationStartDate: 2014-02-10T10:50:42.389Z,
+  eventNominationEndDate: 2014-02-10T10:50:42.389Z,
+  eventStartDate: 2014-02-10T10:50:42.389Z,
+  eventEndDate: 2014-02-10T10:50:42.389Z,
+  eventDemoDate: 2014-02-10T10:50:42.389Z,
+  eventFinaleDate: 2014-02-10T10:50:42.389Z,
+  eventEnabled: true,
+  eventScoring: 
+   [ { Architecture: 100,
+       Design: 100,
+       Build: 100,
+       Dev: 100,
+       'Unit Testing': 100,
+       'System Testing': 100,
+       'Integration Testing': 100,
+       Deployment: 100 } ],
+  eventScoringMaxTotal: 800 }
+Status: Success | Status Code: 200 | [object Object]
+
+Events Service Contacted...
+Service Request Events Id : 3
+Events Over and out..
+{ _id: 5b3b2b92e7e263a64518fb7e,
+  eventId: 3,
+  eventName: 'Event 3 (Disabled)',
+  eventDescription: 'Event 3 Description',
+  eventReleaseDate: 2014-02-10T10:50:42.389Z,
+  eventNominationStartDate: 2014-02-10T10:50:42.389Z,
+  eventNominationEndDate: 2014-02-10T10:50:42.389Z,
+  eventStartDate: 2014-02-10T10:50:42.389Z,
+  eventEndDate: 2014-02-10T10:50:42.389Z,
+  eventDemoDate: 2014-02-10T10:50:42.389Z,
+  eventFinaleDate: 2014-02-10T10:50:42.389Z,
+  eventEnabled: false,
+  eventScoring: [],
+  eventScoringMaxTotal: 0 }
+Status: Success | Status Code: 200 | [object Object]

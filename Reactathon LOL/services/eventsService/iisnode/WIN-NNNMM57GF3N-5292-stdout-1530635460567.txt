@@ -1,0 +1,16 @@
+DAL API Server listening at http://127.0.0.1:\\.\pipe\ab3e900e-8f54-4787-bedc-7fbcd7f98e18
+DAL DB Server listening at 127.0.0.1:27017
+
+Teams Service Contacted...
+Service Request Teams Id : 1 Record Limit : 2
+getTeamsByEventId
+Teams Over and out..
+[]
+Status: Success | Status Code: 200 | 
+
+Teams Service Contacted...
+Service Request Teams Id : 1 Record Limit : 2
+getTeamsByEventId
+Teams Over and out..
+[]
+Status: Success | Status Code: 200 | 
