@@ -23,7 +23,7 @@
 7. Admin can create events, manage events, manage users and build kpis.
 
 ### Demo
-A live demo of the app can be seen [here](https://pages.github.com/).
+A live demo of the app can be seen [here](https://vzhackathon-frontend.herokuapp.com/).
 
 ### Backend URL 
 [Backend GraphQL](https://vzhackathon-backend.herokuapp.com/graphql)
