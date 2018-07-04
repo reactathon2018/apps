@@ -41,14 +41,14 @@ router.route('/')
 					$or: [
 					{
 					regStart: {
-						$gte: new Date("2018-06-21"), 
-						$lte: new Date("2018-07-20")
+						$gte: new Date("2018-06-12"), 
+						$lte: new Date("2018-07-14")
 					}
 					},
 					{
 					eventEnd: {
-						$gte: new Date("2018-06-21"), 
-						$lte: new Date("2018-07-20")
+						$gte: new Date("2018-06-18"), 
+						$lte: new Date("2018-07-19")
 					}
 					}]
 				}
@@ -67,6 +67,54 @@ router.route('/')
         })
 
     })
+    router.route('/topParticipants')
+    //GET all blobs
+    .get(function (req, res, next) {
+        //retrieve all blobs from Monogo
+        // mongoose.model('events').find({}, function (err, events) {
+        //     if (err) {
+        //         return console.error(err);
+        //     } else {
+        //         res.format({
+        //             //JSON response will show all blobs in JSON format
+        //             json: function () {
+        //                 res.json(events);
+        //             }
+        //         });
+        //     }
+        // });
+        mongoose.model('events').aggregate( [
+			{
+				$project: {
+					eventName: 1,
+					eventId: 1,
+					expectedParticipants:1,
+					total_teams: { $size: "$teamList" }
+				}
+			},
+			{
+				$sort: { total_teams: -1 }
+			},
+			{
+				$limit: 5
+			}
+
+			], function (err, events) {
+            if (err) {
+                return console.error(err);
+            } else {
+                res.format({
+                    //JSON response will show all blobs in JSON format
+                    json: function () {
+                        res.json(events);
+                    }
+                });
+            }
+        })
+
+    })
+
+
 //     //POST a new blob
 //     .post(function (req, res) {
 //         // Get values from POST request. These can be done through forms or REST calls. These rely on the "name" attributes for forms

@@ -21,17 +21,27 @@ class Dashboard extends Component {
             {'id':'3', 'name': 'Code lorem'},
             {'id':'4', 'name': 'Ipsum'}
         ], "chartData": [], "allEvents":[]}
-
-       
+        const thisDuplicate = this;
+       axios.get('http://localhost:3200/api/v1/events/')
+          .then(function (response) {
+            console.log(response.data)
+            thisDuplicate.setState({"allEvents": response.data});
+          })
+          .catch(function (error) {
+            // handle error
+            console.log(error);
+          });
     }
+
+
 
     
 
-    ComponentDidMount(){
-        const topRatedApi = 'http://localhost:3200.api/v1/events'
-        const topParticipantsApi = 'http://localhost:3200.api/v1/events'
-        const ChartApi = 'http://localhost:3200.api/v1/events'
-        const EventsApi = 'http://localhost:3200.api/v1/events'
+    ComponentWillMount(){
+        const topRatedApi = 'http://localhost:3200/api/v1/events'
+        const topParticipantsApi = 'http://localhost:3200/api/v1/events'
+        const ChartApi = 'http://localhost:3200/api/v1/events'
+        const EventsApi = 'http://localhost:3200/api/v1/events/'
         axios.get(topRatedApi)
           .then(function (response) {
             console.log(response);
@@ -62,18 +72,15 @@ class Dashboard extends Component {
             console.log(error);
           });
 
-          axios.get(EventsApi)
-          .then(function (response) {
-            console.log(response);
-            this.setState({"allEvents": response.data})
-          })
-          .catch(function (error) {
-            // handle error
-            console.log(error);
-          });
+
     }
 
     render() {
+
+
+
+        
+
         const topListItems = this.state.topRatedList.map((top, index)=> 
             <ListGroupItem key={top.id}> 
                 <span className="inline-block p-80 left"> {top.eventName} </span>
@@ -89,9 +96,9 @@ class Dashboard extends Component {
         );
 
         const EventList = this.state.allEvents.map((top, index)=> 
-            <ListGroupItem header={top.eventName}> 
+            <ListGroupItem header={top.eventName} key={ `${index}-eventslist` }> 
                 <span className="inline-block p-80"> {top.eventDescription}  </span>
-                <Link to={`/event-details/${top.eventId}`} className="inline-block btn btn-info">Learn More</Link>
+                <Link className="btn btn-info" to={ `/event-details/${top.eventId}` }> Learn More </Link>
             </ListGroupItem>
         );
 
@@ -103,7 +110,7 @@ class Dashboard extends Component {
 
                 <Row className="show-grid panels">
                     <Col xs={12} md={4}>
-                        <div class="custom-panel"> 
+                        <div className="custom-panel"> 
                             <h3 className="border-bottom">  
                                 <Glyphicon glyph="star" /> 
                                 <span className="bold">Top Rated</span>
@@ -114,7 +121,7 @@ class Dashboard extends Component {
                         </div>
                     </Col>
                     <Col xs={12} md={4}>
-                        <div class="custom-panel"> 
+                        <div className="custom-panel"> 
                             <h3 className="border-bottom">  
                                 <Glyphicon glyph="user" /> 
                                 <span className="bold">Top  Participants </span>
@@ -125,7 +132,7 @@ class Dashboard extends Component {
                         </div>
                     </Col>
                     <Col xs={12} md={4}>
-                        <div class="custom-panel"> 
+                        <div className="custom-panel"> 
                             <h3 className="border-bottom">  
                                 <Glyphicon glyph="screenshot" /> 
                                 <span className="bold"> Participation Graph </span>

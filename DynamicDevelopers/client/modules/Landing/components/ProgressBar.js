@@ -6,7 +6,7 @@ import styles from './ProgressBar.css';
 
 function ProgressBar(props) {
   console.log('props', props);
-  if (props.jobDetails) {
+  if (props.jobDetails.progressCode != '2') {
     return (
         <div className={styles.progressContainer}>
             <ol className={styles.progressTracker}>
@@ -20,7 +20,16 @@ function ProgressBar(props) {
         </div>
     );
   }
-  return (<div>Error in Loading...</div>);
+  return (<div className={styles.progressContainer}>
+            <ol className={styles.progressTracker}>
+                <li className={styles.stepCompleted}><a href="#" className={styles.stepName}>Applied</a></li>
+                <li className={styles.stepCompleted}><a href="#" className={styles.stepName}>Technical</a></li>
+                <li className={styles.stepCompleted}><a href="#" className={styles.stepName}>Manager round</a></li>
+                <li className={styles.stepCompleted}><a href="#" className={styles.stepName}>HR</a></li>
+                <li className={styles.stepCompleted}><span className={styles.stepName}>Verification</span></li>
+                <li className={styles.stepActive}><span className={styles.stepName}>On-Boarding</span></li>
+            </ol>
+        </div>);
 }
 
 ProgressBar.propTypes = {

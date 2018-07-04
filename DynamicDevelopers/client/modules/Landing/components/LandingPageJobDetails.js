@@ -8,10 +8,11 @@ function LandingPageJobDetails(props) {
   console.log('props', props);
   if (props.jobDetails) {
     return (
-      <div className={styles.jobDesc}>
+      <div className={styles.jobDesc}>       
+          <h2>{props.jobDetails.name} </h2> <br />
         <h3>Job Description</h3>
         <hr/>
-        <div>
+        <div>         
           {props.jobDetails.desc}
         </div>
       </div>
