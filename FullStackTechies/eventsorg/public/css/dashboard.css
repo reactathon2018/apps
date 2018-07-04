@@ -1,0 +1,80 @@
+.panels .custom-panel{
+	padding:25px;
+	border:1px solid #e3e4e5;
+	margin:45px 0px;
+	min-height: 500px;
+	background: #fff;
+	box-shadow: 2px 2px 8px #e3e4e3;
+}
+
+.carousel{
+	top:52px;
+}
+
+.carousel-inner .item {
+	height:300px;
+}
+
+.body{
+	background: #f6f6f6;
+}
+
+.navbar {
+	margin-bottom:0;
+	color:#fff !important;
+	font-weight: bold;
+	border-radius: 0 !important;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+.navbar .container{
+	width:100% !important;
+}
+
+.navbar-inverse .navbar-brand{
+	color:#fff !important;
+	font-weight: normal;
+}
+
+.row{
+	margin:0 !important;
+}
+
+.carousel button {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+    border-color: #2e6da4 !important;
+    margin-bottom: 15px;
+}
+
+.dashboard-chart.blue .bar{
+	fill: #337AB7;
+}
+
+.border-bottom{
+	border-bottom:1px solid #333;
+}
+
+h1, h2, h3, h4, h5 ,h6{
+	margin-top: 0;
+	padding-bottom:10px;
+}
+.bold {
+	font-weight: bold;
+}
+
+.inline-block{
+	display : inline-block;
+}
+
+.p-80 {
+	width:80% !important;
+}
+
+.p-10 {
+	width:10% !important;
+}
+
