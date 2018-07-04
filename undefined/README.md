@@ -1,6 +1,6 @@
 # Reactathon Gamification Portal
 
-###### The Gamification Portal is a platform for users to participate in various codeing challenges. The user can form teams, register for the active events and can submit his solution. The admin/event organizer will then choose the best solution for that event. Users will then receive scores which will be shown in the leaderboard for all the users to see. Users can also collaborate with the in-built chat function with other users.
+###### The Gamification Portal is a platform for users to participate in various technical challenges. User can form teams, register for the active events and can submit their solution. The admin/event organizer will then choose the best solution for that event. Users will then receive scores which will be shown in the leaderboard for all the users to see. Users can also collaborate with the in-built chat function with other users.
 
 ### Technologies used:
 
