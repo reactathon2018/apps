@@ -1,4 +1,5 @@
 Code Warriors
-React
-Graphql
-Mongodb
+Raja
+Solomon
+Jeyasingh
+Parthasarathy
