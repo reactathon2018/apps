@@ -13,7 +13,7 @@
 2. GraphQL
 3. MongoDB with Mongoose
 
-#####Capabilities :
+##### Capabilities :
 1. Users can view all the events with is summary and detailed view.
 2. Portal has detailed view of who is participating, who is leading status etc.
 3. User's can signup and register for an event they are interested in.
@@ -21,7 +21,7 @@
 5. Portal includes a chat window, where the users interact with each other.
 
 ### Demo
-A live demo of the app can be seen [here](https://pages.github.com/).
+A live demo of the app can be seen [here](https://vzhackathon-frontend.herokuapp.com/).
 
 ### Backend URL 
 [Backend GraphQL](https://vzhackathon-backend.herokuapp.com/graphql)

@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "rc-slider": "^8.6.1",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-native": "^0.55.4",
+    "react-native-progress-bar-animated": "^1.0.6",
+    "react-native-slider": "^0.11.0",
+    "react-progressbar": "^15.4.1",
+    "react-rangeslider": "^2.2.0",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
