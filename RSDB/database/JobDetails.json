@@ -1,0 +1,22 @@
+{ 
+    "_id" : ObjectId("5b3a426af11c7504b46bcf02"), 
+    "JobId" : NumberLong(55321), 
+    "JobTittle" : "DotNet Developer", 
+    "JobDesc" : "Need a well hands on expericend in angular js with dotnet framework.", 
+    "Qualification" : "4 Yr Graduation", 
+    "Experinece" : "Min 4 - 6 Yrs Exp in Dotnet", 
+    "PrimarySkills" : "Angular Js, Dotnet, Web API, Micro Services", 
+    "SecondarySkills" : "WCF, Java Script, SQL, CSS, HTML", 
+    "NoOfVacanices" : NumberLong(2)
+}
+{ 
+    "_id" : ObjectId("5b3a4368f11c7504b46bcf07"), 
+    "JobId" : NumberLong(55322), 
+    "JobTittle" : "Full Stack Developer", 
+    "JobDesc" : "Hands on expericend in dotnet framework, Angular, SQL, Micro services and in all applications", 
+    "Qualification" : "4 Yr Graduation", 
+    "Experinece" : "Min 3 - 5 Yrs Exp in Dotnet", 
+    "PrimarySkills" : "Angular Js, Dotnet, Web API, Micro Services, SQL", 
+    "SecondarySkills" : "WCF, Java Script, CSS, HTML", 
+    "NoOfVacanices" : NumberLong(1)
+}

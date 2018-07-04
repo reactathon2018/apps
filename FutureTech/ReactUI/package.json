@@ -1,0 +1,37 @@
+{
+  "name": "hack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0",
+    "@fortawesome/react-fontawesome": "^0.1.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "chart.js": "^2.7.2",
+    "jquery": "^3.3.1",
+    "npm": "^6.1.0",
+    "rc-progress": "^2.2.5",
+    "react": "^16.4.1",
+    "react-chartjs-2": "^2.7.2",
+    "react-d3-basic": "^1.6.11",
+    "react-dom": "^16.4.1",
+    "react-event-timeline": "^1.5.4",
+    "react-fontawesome": "^1.6.1",
+    "react-layout-views": "^0.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-timelines": "^2.5.2",
+    "reactstrap": "^6.2.0",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
