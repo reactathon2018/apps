@@ -1,0 +1,157 @@
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.banner-job{
+  background-image: url("job-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 65px 0 100px;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(40, 45, 50, 0.9);
+}
+
+.banner-form {
+background-color: rgba(0, 0, 0, 0.14);
+padding: 8px;
+max-width: 750px;
+margin: 12px auto;
+border-radius: 5px;
+text-align:left;
+}
+
+.banner-form form {
+border-radius:4px;
+background-color:#fff;
+position:relative;
+}
+
+.banner-job .banner-form input {
+	margin-left: 0;
+	width: 60%;
+}
+
+.banner-job .category-dropdown {
+	border-left: 1px solid #e6e6e6;
+	border-right: 0;
+	border-radius: 0;
+	width: 20%;
+	padding: 0 35px;
+}
+
+.category-dropdown {
+  background-color: #fff;
+  border-right: 1px solid #e6e6e6;
+  border-radius: 5px 0px 0px 5px; 
+  min-width: 200px;
+  line-height: 45px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.category-dropdown a i{
+margin-left: 5px;
+}
+
+.category-dropdown a {
+  font-size: 16px;
+  margin: 0;
+  color: #000;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.banner-form input {
+min-width: 375px;
+padding:0 18px 0;
+margin: 0;
+border: none;
+margin-left: -4px;
+}
+
+.banner-form .form-control, 
+.banner-form .category-dropdown {	
+display:inline-block;
+width:30%;
+height:46px;
+font-size:16px;
+color: #000;
+}
+
+.banner-form button.btn.btn-primary {
+position:absolute;
+right:-2px;
+bottom:0;
+font-size: 16px;
+max-width: 114px;
+background-color: #00a651;
+border-radius: 0 5px 5px 0 ;
+color: #fff;
+text-transform: uppercase;
+border-color:#00a651;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+height:100%;
+padding: 10px 20px;
+}
+
+.banner-form button:hover {
+background-color: #0072bc;
+border-color: #0072bc;
+}
+
+.panel-body ul {padding:0; margin:0;margin-bottom: 10px}
+.panel-body ul li{ list-style: none; display: inline; padding:0 15px 0 0; }
+.jobsearchBox { overflow-y: auto;}
+.jobsearchBox .panel{cursor: pointer;}
+
+
+
+.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;border-bottom:0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled span.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+/*.arrowDown {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #CCC;
+  position: relative;
+  top: -15px;
+  left: 10px;
+}*/
+
+.panelDetail{margin-top: -8px;}
